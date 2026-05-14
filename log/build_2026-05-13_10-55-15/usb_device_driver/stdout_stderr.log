@@ -1,0 +1,84 @@
+-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/miles/usb_ros2_ws/build/usb_device_driver
+[35m[1mConsolidate compiler generated dependencies of target usb_device_driver__rosidl_generator_c[0m
+[  2%] Built target usb_device_driver__cpp
+[  4%] [32mBuilding C object CMakeFiles/usb_device_driver__rosidl_generator_c.dir/rosidl_generator_c/usb_device_driver/msg/detail/imu_data__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/usb_device_driver__rosidl_generator_c.dir/rosidl_generator_c/usb_device_driver/msg/detail/motors_cmd__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/usb_device_driver__rosidl_generator_c.dir/rosidl_generator_c/usb_device_driver/msg/detail/motors_states__functions.c.o[0m
+[  8%] Built target ament_cmake_python_copy_usb_device_driver
+[35m[1mConsolidate compiler generated dependencies of target usb_device_driver__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target usb_device_driver__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target usb_device_driver__rosidl_typesupport_fastrtps_cpp[0m
+[ 18%] Built target usb_device_driver__rosidl_typesupport_cpp
+[ 20%] [32mBuilding CXX object CMakeFiles/usb_device_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/usb_device_driver/msg/detail/imu_data__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/usb_device_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/usb_device_driver/msg/detail/motors_cmd__type_support.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/usb_device_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/usb_device_driver/msg/detail/motors_states__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/usb_device_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/usb_device_driver/msg/detail/dds_fastrtps/imu_data__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/usb_device_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/usb_device_driver/msg/detail/dds_fastrtps/motors_states__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/usb_device_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/usb_device_driver/msg/detail/dds_fastrtps/motors_cmd__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/usb_reader_node.dir/src/usb_reader_node.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/usb_reader_node.dir/src/main.cpp.o[0m
+[ 36%] [32m[1mLinking C shared library libusb_device_driver__rosidl_generator_c.so[0m
+[ 38%] Built target usb_device_driver__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target usb_device_driver__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target usb_device_driver__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target usb_device_driver__rosidl_typesupport_introspection_c[0m
+[ 40%] [32m[1mLinking CXX shared library libusb_device_driver__rosidl_typesupport_c.so[0m
+[ 44%] [32mBuilding C object CMakeFiles/usb_device_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/usb_device_driver/msg/detail/imu_data__type_support.c.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/usb_device_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/usb_device_driver/msg/detail/imu_data__type_support_c.cpp.o[0m
+[ 46%] [32mBuilding C object CMakeFiles/usb_device_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/usb_device_driver/msg/detail/motors_cmd__type_support.c.o[0m
+[ 54%] Built target usb_device_driver__rosidl_typesupport_c
+[ 56%] [32mBuilding CXX object CMakeFiles/usb_device_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/usb_device_driver/msg/detail/motors_cmd__type_support_c.cpp.o[0m
+[ 58%] [32mBuilding C object CMakeFiles/usb_device_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/usb_device_driver/msg/detail/motors_states__type_support.c.o[0m
+running egg_info
+writing usb_device_driver.egg-info/PKG-INFO
+writing dependency_links to usb_device_driver.egg-info/dependency_links.txt
+writing top-level names to usb_device_driver.egg-info/top_level.txt
+reading manifest file 'usb_device_driver.egg-info/SOURCES.txt'
+writing manifest file 'usb_device_driver.egg-info/SOURCES.txt'
+[ 60%] [32m[1mLinking C shared library libusb_device_driver__rosidl_typesupport_introspection_c.so[0m
+[ 60%] Built target ament_cmake_python_build_usb_device_driver_egg
+[ 62%] [32mBuilding CXX object CMakeFiles/usb_device_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/usb_device_driver/msg/detail/motors_states__type_support_c.cpp.o[0m
+[ 64%] Built target usb_device_driver__rosidl_typesupport_introspection_c
+In file included from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/src/usb_reader_node.cpp:1[m[K:
+[01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/include/usb_device_driver/usb_reader_node.hpp:15:10:[m[K [01;31m[Kfatal error: [m[Kusb_device_driver/msg/IMUData.hpp: 没有那个文件或目录
+   15 | #include [01;31m[K"usb_device_driver/msg/IMUData.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/usb_reader_node.dir/build.make:90：CMakeFiles/usb_reader_node.dir/src/usb_reader_node.cpp.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+In file included from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/src/main.cpp:1[m[K:
+[01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/include/usb_device_driver/usb_reader_node.hpp:15:10:[m[K [01;31m[Kfatal error: [m[Kusb_device_driver/msg/IMUData.hpp: 没有那个文件或目录
+   15 | #include [01;31m[K"usb_device_driver/msg/IMUData.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/usb_reader_node.dir/build.make:76：CMakeFiles/usb_reader_node.dir/src/main.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:593：CMakeFiles/usb_reader_node.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+[ 66%] [32m[1mLinking CXX shared library libusb_device_driver__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 68%] [32m[1mLinking CXX shared library libusb_device_driver__rosidl_typesupport_introspection_cpp.so[0m
+[ 70%] Built target usb_device_driver__rosidl_typesupport_fastrtps_cpp
+[ 72%] Built target usb_device_driver__rosidl_typesupport_introspection_cpp
+[ 74%] [32m[1mLinking CXX shared library libusb_device_driver__rosidl_typesupport_fastrtps_c.so[0m
+[ 76%] Built target usb_device_driver__rosidl_typesupport_fastrtps_c
+gmake: *** [Makefile:146：all] 错误 2

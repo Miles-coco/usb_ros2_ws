@@ -1,0 +1,355 @@
+[0.000000] (-) TimerEvent: {}
+[0.000200] (usb_device_driver) JobQueued: {'identifier': 'usb_device_driver', 'dependencies': OrderedDict()}
+[0.000962] (usb_device_driver) JobStarted: {'identifier': 'usb_device_driver'}
+[0.019198] (usb_device_driver) JobProgress: {'identifier': 'usb_device_driver', 'progress': 'cmake'}
+[0.021009] (usb_device_driver) JobProgress: {'identifier': 'usb_device_driver', 'progress': 'build'}
+[0.022619] (usb_device_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/miles/usb_ros2_ws/src/usb_device_driver/build/usb_device_driver', '--', '-j12', '-l12'], 'cwd': '/home/miles/usb_ros2_ws/src/usb_device_driver/build/usb_device_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'miles'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/miles'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/miles/usb_ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.115.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1098'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1512'), ('BUNDLED_DEBUGPY_PATH', '/home/miles/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2395'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/miles/usb_ros2_ws/src/usb_device_driver/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'miles'), ('JOURNAL_STREAM', '8:12938'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'miles'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/miles/miniconda3/bin:/home/miles/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/miles/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/miles/.local/bin:/home/miles/miniconda3/bin:/opt/ros/humble/bin:/home/miles/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/miles/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/miles:@/tmp/.ICE-unix/1484,unix/miles:/tmp/.ICE-unix/1484'), ('INVOCATION_ID', '6bd4fc7edcdb4a4f8033df3d0818de29'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/miles/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-510fb0e7ba3d52da.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/miles/.config/Code/User/workspaceStorage/ff9966d21cc0024eeada1ee1a360488f/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UUYLP3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-03b8406b82.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/miles/usb_ros2_ws/src/usb_device_driver/build/usb_device_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver:/opt/ros/humble')]), 'shell': False}
+[0.099603] (-) TimerEvent: {}
+[0.145838] (usb_device_driver) StdoutLine: {'line': b'[ 10%] Built target usb_device_driver__rosidl_generator_c\n'}
+[0.149279] (usb_device_driver) StdoutLine: {'line': b'[ 12%] Built target usb_device_driver__cpp\n'}
+[0.168231] (usb_device_driver) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_usb_device_driver\n'}
+[0.194003] (usb_device_driver) StdoutLine: {'line': b'[ 22%] Built target usb_device_driver__rosidl_typesupport_cpp\n'}
+[0.199638] (-) TimerEvent: {}
+[0.203203] (usb_device_driver) StdoutLine: {'line': b'[ 32%] Built target usb_device_driver__rosidl_typesupport_introspection_cpp\n'}
+[0.204370] (usb_device_driver) StdoutLine: {'line': b'[ 42%] Built target usb_device_driver__rosidl_typesupport_c\n'}
+[0.207266] (usb_device_driver) StdoutLine: {'line': b'[ 52%] Built target usb_device_driver__rosidl_typesupport_introspection_c\n'}
+[0.211731] (usb_device_driver) StdoutLine: {'line': b'[ 62%] Built target usb_device_driver__rosidl_typesupport_fastrtps_cpp\n'}
+[0.212683] (usb_device_driver) StdoutLine: {'line': b'[ 72%] Built target usb_device_driver__rosidl_typesupport_fastrtps_c\n'}
+[0.259945] (usb_device_driver) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/usb_reader_node.dir/src/main.cpp.o\x1b[0m\n'}
+[0.262491] (usb_device_driver) StdoutLine: {'line': b'[ 74%] Built target usb_device_driver\n'}
+[0.262956] (usb_device_driver) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/usb_reader_node.dir/src/usb_reader_node.cpp.o\x1b[0m\n'}
+[0.299776] (-) TimerEvent: {}
+[0.314242] (usb_device_driver) StdoutLine: {'line': b'[ 78%] Built target usb_device_driver__py\n'}
+[0.367028] (usb_device_driver) StdoutLine: {'line': b'[ 86%] Built target usb_device_driver__rosidl_generator_py\n'}
+[0.399921] (-) TimerEvent: {}
+[0.407801] (usb_device_driver) StdoutLine: {'line': b'[ 90%] Built target usb_device_driver__rosidl_typesupport_introspection_c__pyext\n'}
+[0.419695] (usb_device_driver) StdoutLine: {'line': b'[ 94%] Built target usb_device_driver__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.429534] (usb_device_driver) StdoutLine: {'line': b'[ 98%] Built target usb_device_driver__rosidl_typesupport_c__pyext\n'}
+[0.500055] (-) TimerEvent: {}
+[0.600454] (-) TimerEvent: {}
+[0.700899] (-) TimerEvent: {}
+[0.704254] (usb_device_driver) StdoutLine: {'line': b'running egg_info\n'}
+[0.705768] (usb_device_driver) StdoutLine: {'line': b'writing usb_device_driver.egg-info/PKG-INFO\n'}
+[0.706197] (usb_device_driver) StdoutLine: {'line': b'writing dependency_links to usb_device_driver.egg-info/dependency_links.txt\n'}
+[0.706543] (usb_device_driver) StdoutLine: {'line': b'writing top-level names to usb_device_driver.egg-info/top_level.txt\n'}
+[0.711235] (usb_device_driver) StdoutLine: {'line': b"reading manifest file 'usb_device_driver.egg-info/SOURCES.txt'\n"}
+[0.712545] (usb_device_driver) StdoutLine: {'line': b"writing manifest file 'usb_device_driver.egg-info/SOURCES.txt'\n"}
+[0.778165] (usb_device_driver) StdoutLine: {'line': b'[ 98%] Built target ament_cmake_python_build_usb_device_driver_egg\n'}
+[0.801078] (-) TimerEvent: {}
+[0.901609] (-) TimerEvent: {}
+[1.002029] (-) TimerEvent: {}
+[1.102436] (-) TimerEvent: {}
+[1.202924] (-) TimerEvent: {}
+[1.303312] (-) TimerEvent: {}
+[1.403697] (-) TimerEvent: {}
+[1.504203] (-) TimerEvent: {}
+[1.604833] (-) TimerEvent: {}
+[1.705281] (-) TimerEvent: {}
+[1.805722] (-) TimerEvent: {}
+[1.906167] (-) TimerEvent: {}
+[2.006619] (-) TimerEvent: {}
+[2.107053] (-) TimerEvent: {}
+[2.207509] (-) TimerEvent: {}
+[2.308008] (-) TimerEvent: {}
+[2.408624] (-) TimerEvent: {}
+[2.509033] (-) TimerEvent: {}
+[2.609395] (-) TimerEvent: {}
+[2.709865] (-) TimerEvent: {}
+[2.810358] (-) TimerEvent: {}
+[2.910836] (-) TimerEvent: {}
+[3.011240] (-) TimerEvent: {}
+[3.111609] (-) TimerEvent: {}
+[3.212015] (-) TimerEvent: {}
+[3.312383] (-) TimerEvent: {}
+[3.412864] (-) TimerEvent: {}
+[3.513297] (-) TimerEvent: {}
+[3.613675] (-) TimerEvent: {}
+[3.714138] (-) TimerEvent: {}
+[3.814687] (-) TimerEvent: {}
+[3.915129] (-) TimerEvent: {}
+[4.015564] (-) TimerEvent: {}
+[4.116047] (-) TimerEvent: {}
+[4.216553] (-) TimerEvent: {}
+[4.316978] (-) TimerEvent: {}
+[4.417349] (-) TimerEvent: {}
+[4.517807] (-) TimerEvent: {}
+[4.618234] (-) TimerEvent: {}
+[4.718746] (-) TimerEvent: {}
+[4.819248] (-) TimerEvent: {}
+[4.919735] (-) TimerEvent: {}
+[5.020199] (-) TimerEvent: {}
+[5.120551] (-) TimerEvent: {}
+[5.179486] (usb_device_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/../protocol.h:4\x1b[m\x1b[K,\n'}
+[5.179771] (usb_device_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/robot_dog.h:29\x1b[m\x1b[K,\n'}
+[5.179882] (usb_device_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/mavlink.h:32\x1b[m\x1b[K,\n'}
+[5.179984] (usb_device_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/miles/usb_ros2_ws/src/usb_device_driver/include/usb_device_driver/usb_reader_node.hpp:20\x1b[m\x1b[K,\n'}
+[5.180062] (usb_device_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/miles/usb_ros2_ws/src/usb_device_driver/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[5.180139] (usb_device_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/../mavlink_types.h:78:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.180236] (usb_device_driver) StderrLine: {'line': b'   78 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[5.180318] (usb_device_driver) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.180393] (usb_device_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/../mavlink_types.h:17:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KMAVPACKED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.180487] (usb_device_driver) StderrLine: {'line': b'   17 |   #define MAVPACKED( __Declaration__ ) \x1b[01;36m\x1b[K__Declaration__\x1b[m\x1b[K __attribute__((packed))\n'}
+[5.180562] (usb_device_driver) StderrLine: {'line': b'      |                                        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.220720] (-) TimerEvent: {}
+[5.309420] (usb_device_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/../protocol.h:4\x1b[m\x1b[K,\n'}
+[5.309816] (usb_device_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/robot_dog.h:29\x1b[m\x1b[K,\n'}
+[5.310047] (usb_device_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/mavlink.h:32\x1b[m\x1b[K,\n'}
+[5.310239] (usb_device_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/miles/usb_ros2_ws/src/usb_device_driver/include/usb_device_driver/usb_reader_node.hpp:20\x1b[m\x1b[K,\n'}
+[5.310425] (usb_device_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/miles/usb_ros2_ws/src/usb_device_driver/src/usb_reader_node.cpp:1\x1b[m\x1b[K:\n'}
+[5.310660] (usb_device_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/../mavlink_types.h:78:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.310868] (usb_device_driver) StderrLine: {'line': b'   78 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[5.311044] (usb_device_driver) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.311209] (usb_device_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/../mavlink_types.h:17:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KMAVPACKED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.311409] (usb_device_driver) StderrLine: {'line': b'   17 |   #define MAVPACKED( __Declaration__ ) \x1b[01;36m\x1b[K__Declaration__\x1b[m\x1b[K __attribute__((packed))\n'}
+[5.311561] (usb_device_driver) StderrLine: {'line': b'      |                                        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.320842] (-) TimerEvent: {}
+[5.421238] (-) TimerEvent: {}
+[5.521650] (-) TimerEvent: {}
+[5.622012] (-) TimerEvent: {}
+[5.722415] (-) TimerEvent: {}
+[5.822893] (-) TimerEvent: {}
+[5.923292] (-) TimerEvent: {}
+[6.023733] (-) TimerEvent: {}
+[6.124153] (-) TimerEvent: {}
+[6.224536] (-) TimerEvent: {}
+[6.325043] (-) TimerEvent: {}
+[6.425488] (-) TimerEvent: {}
+[6.525948] (-) TimerEvent: {}
+[6.626380] (-) TimerEvent: {}
+[6.726976] (-) TimerEvent: {}
+[6.827421] (-) TimerEvent: {}
+[6.927927] (-) TimerEvent: {}
+[7.028409] (-) TimerEvent: {}
+[7.128865] (-) TimerEvent: {}
+[7.229256] (-) TimerEvent: {}
+[7.329651] (-) TimerEvent: {}
+[7.429998] (-) TimerEvent: {}
+[7.530465] (-) TimerEvent: {}
+[7.630934] (-) TimerEvent: {}
+[7.731347] (-) TimerEvent: {}
+[7.831820] (-) TimerEvent: {}
+[7.932274] (-) TimerEvent: {}
+[8.032654] (-) TimerEvent: {}
+[8.133009] (-) TimerEvent: {}
+[8.233407] (-) TimerEvent: {}
+[8.333720] (-) TimerEvent: {}
+[8.434056] (-) TimerEvent: {}
+[8.534427] (-) TimerEvent: {}
+[8.634804] (-) TimerEvent: {}
+[8.735164] (-) TimerEvent: {}
+[8.835507] (-) TimerEvent: {}
+[8.935840] (-) TimerEvent: {}
+[9.036117] (-) TimerEvent: {}
+[9.136462] (-) TimerEvent: {}
+[9.236827] (-) TimerEvent: {}
+[9.337211] (-) TimerEvent: {}
+[9.437600] (-) TimerEvent: {}
+[9.537996] (-) TimerEvent: {}
+[9.638350] (-) TimerEvent: {}
+[9.738673] (-) TimerEvent: {}
+[9.839028] (-) TimerEvent: {}
+[9.939396] (-) TimerEvent: {}
+[10.039779] (-) TimerEvent: {}
+[10.140143] (-) TimerEvent: {}
+[10.240485] (-) TimerEvent: {}
+[10.340939] (-) TimerEvent: {}
+[10.441349] (-) TimerEvent: {}
+[10.541660] (-) TimerEvent: {}
+[10.641938] (-) TimerEvent: {}
+[10.742287] (-) TimerEvent: {}
+[10.842648] (-) TimerEvent: {}
+[10.942994] (-) TimerEvent: {}
+[11.043338] (-) TimerEvent: {}
+[11.143651] (-) TimerEvent: {}
+[11.243980] (-) TimerEvent: {}
+[11.344326] (-) TimerEvent: {}
+[11.444657] (-) TimerEvent: {}
+[11.544991] (-) TimerEvent: {}
+[11.645323] (-) TimerEvent: {}
+[11.745650] (-) TimerEvent: {}
+[11.846109] (-) TimerEvent: {}
+[11.946482] (-) TimerEvent: {}
+[12.046828] (-) TimerEvent: {}
+[12.147190] (-) TimerEvent: {}
+[12.247548] (-) TimerEvent: {}
+[12.347903] (-) TimerEvent: {}
+[12.355750] (usb_device_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable usb_reader_node\x1b[0m\n'}
+[12.448047] (-) TimerEvent: {}
+[12.548415] (-) TimerEvent: {}
+[12.648788] (-) TimerEvent: {}
+[12.685980] (usb_device_driver) StdoutLine: {'line': b'[100%] Built target usb_reader_node\n'}
+[12.699334] (usb_device_driver) CommandEnded: {'returncode': 0}
+[12.700193] (usb_device_driver) JobProgress: {'identifier': 'usb_device_driver', 'progress': 'install'}
+[12.711745] (usb_device_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/miles/usb_ros2_ws/src/usb_device_driver/build/usb_device_driver'], 'cwd': '/home/miles/usb_ros2_ws/src/usb_device_driver/build/usb_device_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'miles'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/miles'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/miles/usb_ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.115.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1098'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1512'), ('BUNDLED_DEBUGPY_PATH', '/home/miles/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2395'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/miles/usb_ros2_ws/src/usb_device_driver/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'miles'), ('JOURNAL_STREAM', '8:12938'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'miles'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/miles/miniconda3/bin:/home/miles/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/miles/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/miles/.local/bin:/home/miles/miniconda3/bin:/opt/ros/humble/bin:/home/miles/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/miles/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/miles:@/tmp/.ICE-unix/1484,unix/miles:/tmp/.ICE-unix/1484'), ('INVOCATION_ID', '6bd4fc7edcdb4a4f8033df3d0818de29'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/miles/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-510fb0e7ba3d52da.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/miles/.config/Code/User/workspaceStorage/ff9966d21cc0024eeada1ee1a360488f/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UUYLP3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-03b8406b82.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/miles/usb_ros2_ws/src/usb_device_driver/build/usb_device_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver:/opt/ros/humble')]), 'shell': False}
+[12.719604] (usb_device_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.719944] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/ament_index/resource_index/rosidl_interfaces/usb_device_driver\n'}
+[12.720081] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver\n'}
+[12.720173] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg\n'}
+[12.720223] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail\n'}
+[12.720269] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_cmd__struct.h\n'}
+[12.720328] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_states__struct.h\n'}
+[12.720396] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_cmd__type_support.h\n'}
+[12.720443] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_states__functions.c\n'}
+[12.720531] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/imu_data__type_support.h\n'}
+[12.720620] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/imu_data__functions.h\n'}
+[12.720694] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_cmd__functions.c\n'}
+[12.720739] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_states__type_support.h\n'}
+[12.720783] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_cmd__functions.h\n'}
+[12.720849] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/imu_data__functions.c\n'}
+[12.720892] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_states__functions.h\n'}
+[12.720956] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/imu_data__struct.h\n'}
+[12.721037] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.721143] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/motors_cmd.h\n'}
+[12.721203] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/motors_states.h\n'}
+[12.721261] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/imu_data.h\n'}
+[12.721311] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/environment/library_path.sh\n'}
+[12.721368] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/environment/library_path.dsv\n'}
+[12.721429] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/lib/libusb_device_driver__rosidl_generator_c.so\n'}
+[12.721503] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver\n'}
+[12.721805] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg\n'}
+[12.721952] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail\n'}
+[12.722047] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_states__rosidl_typesupport_fastrtps_c.h\n'}
+[12.722198] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/imu_data__rosidl_typesupport_fastrtps_c.h\n'}
+[12.722365] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[12.722475] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.722607] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/lib/libusb_device_driver__rosidl_typesupport_fastrtps_c.so\n'}
+[12.722732] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver\n'}
+[12.722852] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg\n'}
+[12.722982] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail\n'}
+[12.723038] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/imu_data__builder.hpp\n'}
+[12.723095] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/imu_data__type_support.hpp\n'}
+[12.723145] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_states__type_support.hpp\n'}
+[12.723216] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_cmd__struct.hpp\n'}
+[12.723293] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_cmd__traits.hpp\n'}
+[12.723342] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_states__struct.hpp\n'}
+[12.723402] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/imu_data__traits.hpp\n'}
+[12.723453] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_states__builder.hpp\n'}
+[12.723523] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/imu_data__struct.hpp\n'}
+[12.723573] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_states__traits.hpp\n'}
+[12.723646] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_cmd__builder.hpp\n'}
+[12.723705] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_cmd__type_support.hpp\n'}
+[12.723749] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/motors_states.hpp\n'}
+[12.723808] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/motors_cmd.hpp\n'}
+[12.723853] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[12.723892] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/imu_data.hpp\n'}
+[12.723935] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver\n'}
+[12.723977] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg\n'}
+[12.724017] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail\n'}
+[12.724057] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/dds_fastrtps\n'}
+[12.724097] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.724147] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_states__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.724188] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/imu_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.724228] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.724269] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/lib/libusb_device_driver__rosidl_typesupport_fastrtps_cpp.so\n'}
+[12.724310] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver\n'}
+[12.724351] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg\n'}
+[12.724391] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail\n'}
+[12.724430] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_cmd__rosidl_typesupport_introspection_c.h\n'}
+[12.724470] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/imu_data__rosidl_typesupport_introspection_c.h\n'}
+[12.724525] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/imu_data__type_support.c\n'}
+[12.724570] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_cmd__type_support.c\n'}
+[12.724657] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_states__rosidl_typesupport_introspection_c.h\n'}
+[12.724717] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_states__type_support.c\n'}
+[12.724760] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.724799] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/lib/libusb_device_driver__rosidl_typesupport_introspection_c.so\n'}
+[12.724838] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/lib/libusb_device_driver__rosidl_typesupport_c.so\n'}
+[12.724907] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver\n'}
+[12.724958] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg\n'}
+[12.725008] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail\n'}
+[12.725064] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_cmd__type_support.cpp\n'}
+[12.725125] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_states__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.725174] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/imu_data__type_support.cpp\n'}
+[12.725223] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.725272] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/imu_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.725321] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_states__type_support.cpp\n'}
+[12.725370] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/lib/libusb_device_driver__rosidl_typesupport_introspection_cpp.so\n'}
+[12.725418] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/lib/libusb_device_driver__rosidl_typesupport_cpp.so\n'}
+[12.725467] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/environment/pythonpath.sh\n'}
+[12.725515] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/environment/pythonpath.dsv\n'}
+[12.725562] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver-0.0.0-py3.10.egg-info\n'}
+[12.725631] (usb_device_driver) StdoutLine: {'line': b'-- Installing: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[12.725684] (usb_device_driver) StdoutLine: {'line': b'-- Installing: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[12.725741] (usb_device_driver) StdoutLine: {'line': b'-- Installing: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[12.725790] (usb_device_driver) StdoutLine: {'line': b'-- Installing: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[12.725838] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver\n'}
+[12.725886] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/libusb_device_driver__rosidl_generator_py.so\n'}
+[12.725943] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/usb_device_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.726007] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/msg\n'}
+[12.726056] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/msg/_imu_data.py\n'}
+[12.726104] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/msg/_motors_cmd_s.c\n'}
+[12.726151] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/msg/_motors_cmd.py\n'}
+[12.726199] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/msg/_imu_data_s.c\n'}
+[12.726248] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/msg/_motors_states_s.c\n'}
+[12.726296] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/msg/_motors_states.py\n'}
+[12.726344] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/msg/__init__.py\n'}
+[12.726404] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/_usb_device_driver_s.ep.rosidl_typesupport_c.c\n'}
+[12.726452] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/_usb_device_driver_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[12.726501] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/usb_device_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.726550] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/usb_device_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.726617] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/__init__.py\n'}
+[12.726671] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/_usb_device_driver_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[12.748887] (-) TimerEvent: {}
+[12.749768] (usb_device_driver) StdoutLine: {'line': b"Listing '/home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver'...\n"}
+[12.750013] (usb_device_driver) StdoutLine: {'line': b"Listing '/home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/msg'...\n"}
+[12.754224] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/usb_device_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.754546] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/usb_device_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.754894] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/usb_device_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.755185] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/lib/libusb_device_driver__rosidl_generator_py.so\n'}
+[12.755377] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/msg/IMUData.idl\n'}
+[12.755442] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/msg/MotorsCmd.idl\n'}
+[12.755535] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/msg/MotorsStates.idl\n'}
+[12.755585] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/msg/IMUData.msg\n'}
+[12.755660] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/msg/MotorsCmd.msg\n'}
+[12.755721] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/msg/MotorsStates.msg\n'}
+[12.755772] (usb_device_driver) StdoutLine: {'line': b'-- Installing: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/lib/usb_device_driver/usb_reader_node\n'}
+[12.761464] (usb_device_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/lib/usb_device_driver/usb_reader_node" to ""\n'}
+[12.761654] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/lib/usb_device_driver/usb_reader_node\n'}
+[12.761784] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include/\n'}
+[12.761901] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include//usb_device_driver\n'}
+[12.761980] (usb_device_driver) StdoutLine: {'line': b'-- Installing: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/include//usb_device_driver/usb_reader_node.hpp\n'}
+[12.762096] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver//launch\n'}
+[12.762192] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver//launch/usb_reader.launch.py\n'}
+[12.762306] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver//config\n'}
+[12.762412] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver//config/usb_reader.yaml\n'}
+[12.762532] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/ament_index/resource_index/package_run_dependencies/usb_device_driver\n'}
+[12.762597] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/ament_index/resource_index/parent_prefix_path/usb_device_driver\n'}
+[12.762675] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/environment/ament_prefix_path.sh\n'}
+[12.762735] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/environment/ament_prefix_path.dsv\n'}
+[12.762799] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/environment/path.sh\n'}
+[12.762843] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/environment/path.dsv\n'}
+[12.762884] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/local_setup.bash\n'}
+[12.762925] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/local_setup.sh\n'}
+[12.762967] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/local_setup.zsh\n'}
+[12.763034] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/local_setup.dsv\n'}
+[12.763093] (usb_device_driver) StdoutLine: {'line': b'-- Installing: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/package.dsv\n'}
+[12.763148] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/ament_index/resource_index/packages/usb_device_driver\n'}
+[12.763195] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/cmake/export_usb_device_driver__rosidl_generator_cExport.cmake\n'}
+[12.763255] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/cmake/export_usb_device_driver__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.763312] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/cmake/export_usb_device_driver__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[12.763379] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/cmake/export_usb_device_driver__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[12.763429] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/cmake/export_usb_device_driver__rosidl_generator_cppExport.cmake\n'}
+[12.763476] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/cmake/export_usb_device_driver__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[12.763516] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/cmake/export_usb_device_driver__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[12.763564] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/cmake/usb_device_driver__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.763630] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/cmake/usb_device_driver__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.763684] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/cmake/usb_device_driver__rosidl_typesupport_cExport.cmake\n'}
+[12.763744] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/cmake/usb_device_driver__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.763804] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/cmake/usb_device_driver__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.763866] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/cmake/usb_device_driver__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.763922] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/cmake/usb_device_driver__rosidl_typesupport_cppExport.cmake\n'}
+[12.763972] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/cmake/usb_device_driver__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.764038] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/cmake/export_usb_device_driver__rosidl_generator_pyExport.cmake\n'}
+[12.764089] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/cmake/export_usb_device_driver__rosidl_generator_pyExport-noconfig.cmake\n'}
+[12.764150] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/cmake/rosidl_cmake-extras.cmake\n'}
+[12.764211] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.764268] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.764325] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.764375] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.764427] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.764475] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.764521] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/cmake/usb_device_driverConfig.cmake\n'}
+[12.764568] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/cmake/usb_device_driverConfig-version.cmake\n'}
+[12.764684] (usb_device_driver) StdoutLine: {'line': b'-- Up-to-date: /home/miles/usb_ros2_ws/src/usb_device_driver/install/usb_device_driver/share/usb_device_driver/package.xml\n'}
+[12.766488] (usb_device_driver) CommandEnded: {'returncode': 0}
+[12.782301] (usb_device_driver) JobEnded: {'identifier': 'usb_device_driver', 'rc': 0}
+[12.782806] (-) EventReactorShutdown: {}

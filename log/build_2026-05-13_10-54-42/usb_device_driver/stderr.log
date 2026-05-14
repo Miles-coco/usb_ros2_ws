@@ -1,0 +1,6 @@
+[31mCMake Error at CMakeLists.txt:75 (add_dependencies):
+  The dependency target "usb_device_driver_gencpp" of target
+  "usb_reader_node" does not exist.
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m

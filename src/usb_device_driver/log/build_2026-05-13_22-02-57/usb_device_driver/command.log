@@ -1,0 +1,4 @@
+Invoking command in '/home/miles/usb_ros2_ws/src/usb_device_driver/build/usb_device_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/miles/usb_ros2_ws/src/usb_device_driver/build/usb_device_driver -- -j12 -l12
+Invoked command in '/home/miles/usb_ros2_ws/src/usb_device_driver/build/usb_device_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/miles/usb_ros2_ws/src/usb_device_driver/build/usb_device_driver -- -j12 -l12
+Invoking command in '/home/miles/usb_ros2_ws/src/usb_device_driver/build/usb_device_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/miles/usb_ros2_ws/src/usb_device_driver/build/usb_device_driver
+Invoked command in '/home/miles/usb_ros2_ws/src/usb_device_driver/build/usb_device_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/miles/usb_ros2_ws/src/usb_device_driver/build/usb_device_driver

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mavlink>
+  <dialect>1</dialect>
+  
+  <messages>
+    <!-- 消息1: 12电机控制指令（合并） -->
+    <message id="230" name="DOG_MOTORS_CMD">
+      <description>12个电机的控制指令(合并)</description>
+      <field type="uint64_t" name="timestamp" units="ns">时间戳</field>
+      <field type="uint8_t[12]" name="motors_id">电机ID数组</field>
+      <field type="float[12]" name="target_positions" units="rad">目标位置数组</field>
+      <field type="float[12]" name="target_velocities" units="rad/s">目标速度数组</field>
+      <field type="float[12]" name="target_torques" units="Nm">目标力矩数组</field>
+      <field type="uint16_t[12]" name="kp">位置环比例增益数组</field>
+      <field type="uint16_t[12]" name="kd">速度环微分增益数组</field>
+    </message>
+
+    <!-- 消息2: 12电机状态反馈（合并） -->
+    <message id="231" name="DOG_MOTORS_STATE">
+      <description>12个电机的状态反馈(合并)</description>
+      <field type="uint64_t" name="timestamp" units="ns">时间戳</field>
+      <field type="uint8_t[12]" name="motors_id">电机ID数组</field>
+      <field type="float[12]" name="positions" units="rad">当前位置数组</field>
+      <field type="float[12]" name="velocities" units="rad/s">当前速度数组</field>
+      <field type="float[12]" name="torques" units="Nm">当前力矩数组</field>
+      <field type="float[12]" name="currents" units="A">电流数组</field>
+      <field type="uint8_t[12]" name="temperatures" units="degC">温度数组</field>
+      <field type="uint8_t[12]" name="statuses">状态数组</field>
+    </message>
+    
+    <!-- 消息3: IMU数据 -->
+    <message id="232" name="DOG_IMU_DATA">
+      <description>IMU数据</description>
+      <field type="uint64_t" name="timestamp" units="ns">时间戳</field>
+      <field type="float" name="qw">四元数 W</field>
+      <field type="float" name="qx">四元数 X</field>
+      <field type="float" name="qy">四元数 Y</field>
+      <field type="float" name="qz">四元数 Z</field>
+      <field type="float" name="ax" units="m/s/s">X加速度</field>
+      <field type="float" name="ay" units="m/s/s">Y加速度</field>
+      <field type="float" name="az" units="m/s/s">Z加速度</field>
+      <field type="float" name="gx" units="rad/s">X角速度</field>
+      <field type="float" name="gy" units="rad/s">Y角速度</field>
+      <field type="float" name="gz" units="rad/s">Z角速度</field>
+    </message>
+    
+  </messages>
+</mavlink>

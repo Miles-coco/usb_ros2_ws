@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "usb_device_driver__py",
+		"source" : "/home/miles/usb_ros2_ws/build/usb_device_driver/usb_device_driver__py"
+	}
+}

@@ -1,0 +1,379 @@
+[0.023s] Invoking command in '/home/miles/usb_ros2_ws/build/usb_device_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/miles/usb_ros2_ws/build/usb_device_driver -- -j12 -l12
+[0.130s] [  2%] Built target usb_device_driver__cpp
+[0.149s] [ 12%] Built target usb_device_driver__rosidl_generator_c
+[0.151s] [ 12%] Built target ament_cmake_python_copy_usb_device_driver
+[0.174s] [ 22%] Built target usb_device_driver__rosidl_typesupport_introspection_cpp
+[0.175s] [ 32%] Built target usb_device_driver__rosidl_typesupport_fastrtps_cpp
+[0.189s] [ 48%] Built target usb_device_driver__rosidl_typesupport_cpp
+[0.189s] [ 52%] Built target usb_device_driver__rosidl_typesupport_introspection_c
+[0.196s] [ 62%] Built target usb_device_driver__rosidl_typesupport_c
+[0.200s] [ 72%] Built target usb_device_driver__rosidl_typesupport_fastrtps_c
+[0.218s] [35m[1mConsolidate compiler generated dependencies of target usb_reader_node[0m
+[0.246s] [ 72%] Built target usb_device_driver
+[0.273s] [ 74%] [32mBuilding CXX object CMakeFiles/usb_reader_node.dir/src/main.cpp.o[0m
+[0.276s] [ 76%] [32mBuilding CXX object CMakeFiles/usb_reader_node.dir/src/usb_reader_node.cpp.o[0m
+[0.299s] [ 78%] Built target usb_device_driver__py
+[0.350s] [ 86%] Built target usb_device_driver__rosidl_generator_py
+[0.428s] [ 90%] Built target usb_device_driver__rosidl_typesupport_fastrtps_c__pyext
+[0.442s] [ 98%] Built target usb_device_driver__rosidl_typesupport_c__pyext
+[0.442s] [ 98%] Built target usb_device_driver__rosidl_typesupport_introspection_c__pyext
+[0.716s] running egg_info
+[0.718s] writing usb_device_driver.egg-info/PKG-INFO
+[0.718s] writing dependency_links to usb_device_driver.egg-info/dependency_links.txt
+[0.718s] writing top-level names to usb_device_driver.egg-info/top_level.txt
+[0.724s] reading manifest file 'usb_device_driver.egg-info/SOURCES.txt'
+[0.725s] writing manifest file 'usb_device_driver.egg-info/SOURCES.txt'
+[0.769s] [ 98%] Built target ament_cmake_python_build_usb_device_driver_egg
+[5.079s] In file included from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/../protocol.h:4[m[K,
+[5.079s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/robot_dog.h:35[m[K,
+[5.079s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/mavlink.h:39[m[K,
+[5.080s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/include/usb_device_driver/usb_reader_node.hpp:20[m[K,
+[5.080s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/src/main.cpp:1[m[K:
+[5.080s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/../mavlink_types.h:78:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.080s]    78 |     struct [01;35m[K{[m[K
+[5.080s]       |            [01;35m[K^[m[K
+[5.080s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/../mavlink_types.h:17:40:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KMAVPACKED[m[K’
+[5.080s]    17 |   #define MAVPACKED( __Declaration__ ) [01;36m[K__Declaration__[m[K __attribute__((packed))
+[5.080s]       |                                        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[5.089s] In file included from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/mavlink.h:39[m[K,
+[5.089s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/include/usb_device_driver/usb_reader_node.hpp:20[m[K,
+[5.090s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/src/main.cpp:1[m[K:
+[5.090s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/../mavlink_helpers.h:[m[K In function ‘[01m[Kconst mavlink_msg_entry_t* mavlink_get_msg_entry(uint32_t)[m[K’:
+[5.090s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/robot_dog.h:31:42:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K260[m[K’ to ‘[01m[K4[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.090s]    31 | #define MAVLINK_MESSAGE_CRCS {{230, 160, [01;35m[K260[m[K, 260, 0, 0, 0}, {231, 156, 272, 272, 0, 0, 0}, {232, 36, 48, 48, 0, 0, 0}}
+[5.090s]       |                                          [01;35m[K^~~[m[K
+[5.090s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/../mavlink_helpers.h:520:67:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMAVLINK_MESSAGE_CRCS[m[K’
+[5.090s]   520 |         static const mavlink_msg_entry_t mavlink_message_crcs[] = [01;36m[KMAVLINK_MESSAGE_CRCS[m[K;
+[5.090s]       |                                                                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[5.091s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/robot_dog.h:31:47:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K260[m[K’ to ‘[01m[K4[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.091s]    31 | #define MAVLINK_MESSAGE_CRCS {{230, 160, 260, [01;35m[K260[m[K, 0, 0, 0}, {231, 156, 272, 272, 0, 0, 0}, {232, 36, 48, 48, 0, 0, 0}}
+[5.091s]       |                                               [01;35m[K^~~[m[K
+[5.091s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/../mavlink_helpers.h:520:67:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMAVLINK_MESSAGE_CRCS[m[K’
+[5.091s]   520 |         static const mavlink_msg_entry_t mavlink_message_crcs[] = [01;36m[KMAVLINK_MESSAGE_CRCS[m[K;
+[5.091s]       |                                                                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[5.091s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/robot_dog.h:31:73:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K272[m[K’ to ‘[01m[K16[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.091s]    31 | #define MAVLINK_MESSAGE_CRCS {{230, 160, 260, 260, 0, 0, 0}, {231, 156, [01;35m[K272[m[K, 272, 0, 0, 0}, {232, 36, 48, 48, 0, 0, 0}}
+[5.091s]       |                                                                         [01;35m[K^~~[m[K
+[5.091s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/../mavlink_helpers.h:520:67:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMAVLINK_MESSAGE_CRCS[m[K’
+[5.091s]   520 |         static const mavlink_msg_entry_t mavlink_message_crcs[] = [01;36m[KMAVLINK_MESSAGE_CRCS[m[K;
+[5.092s]       |                                                                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[5.092s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/robot_dog.h:31:78:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K272[m[K’ to ‘[01m[K16[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.092s]    31 | #define MAVLINK_MESSAGE_CRCS {{230, 160, 260, 260, 0, 0, 0}, {231, 156, 272, [01;35m[K272[m[K, 0, 0, 0}, {232, 36, 48, 48, 0, 0, 0}}
+[5.092s]       |                                                                              [01;35m[K^~~[m[K
+[5.092s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/../mavlink_helpers.h:520:67:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMAVLINK_MESSAGE_CRCS[m[K’
+[5.092s]   520 |         static const mavlink_msg_entry_t mavlink_message_crcs[] = [01;36m[KMAVLINK_MESSAGE_CRCS[m[K;
+[5.092s]       |                                                                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[5.097s] In file included from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/robot_dog.h:57[m[K,
+[5.098s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/mavlink.h:39[m[K,
+[5.098s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/include/usb_device_driver/usb_reader_node.hpp:20[m[K,
+[5.098s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/src/main.cpp:1[m[K:
+[5.098s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_cmd.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_dog_motors_cmd_pack(uint8_t, uint8_t, mavlink_message_t*, uint64_t, const uint8_t*, const float*, const float*, const float*, const float*, const float*)[m[K’:
+[5.099s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_cmd.h:18:47:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K260[m[K’ to ‘[01m[K4[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.099s]    18 | #define MAVLINK_MSG_ID_DOG_MOTORS_CMD_MIN_LEN [01;35m[K260[m[K
+[5.099s]       |                                               [01;35m[K^~~[m[K
+[5.099s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_cmd.h:102:67:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMAVLINK_MSG_ID_DOG_MOTORS_CMD_MIN_LEN[m[K’
+[5.099s]   102 |     return mavlink_finalize_message(msg, system_id, component_id, [01;36m[KMAVLINK_MSG_ID_DOG_MOTORS_CMD_MIN_LEN[m[K, MAVLINK_MSG_ID_DOG_MOTORS_CMD_LEN, MAVLINK_MSG_ID_DOG_MOTORS_CMD_CRC);
+[5.099s]       |                                                                   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.099s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_cmd.h:17:43:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K260[m[K’ to ‘[01m[K4[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.100s]    17 | #define MAVLINK_MSG_ID_DOG_MOTORS_CMD_LEN [01;35m[K260[m[K
+[5.100s]       |                                           [01;35m[K^~~[m[K
+[5.100s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_cmd.h:102:106:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMAVLINK_MSG_ID_DOG_MOTORS_CMD_LEN[m[K’
+[5.100s]   102 | n mavlink_finalize_message(msg, system_id, component_id, MAVLINK_MSG_ID_DOG_MOTORS_CMD_MIN_LEN, [01;36m[KMAVLINK_MSG_ID_DOG_MOTORS_CMD_LEN[m[K, MAVLINK_MSG_ID_DOG_MOTORS_CMD_CRC);
+[5.100s]       |                                                                                                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.100s] 
+[5.100s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_cmd.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_dog_motors_cmd_pack_status(uint8_t, uint8_t, mavlink_status_t*, mavlink_message_t*, uint64_t, const uint8_t*, const float*, const float*, const float*, const float*, const float*)[m[K’:
+[5.101s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_cmd.h:18:47:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K260[m[K’ to ‘[01m[K4[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.101s]    18 | #define MAVLINK_MSG_ID_DOG_MOTORS_CMD_MIN_LEN [01;35m[K260[m[K
+[5.101s]       |                                               [01;35m[K^~~[m[K
+[5.102s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_cmd.h:148:83:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMAVLINK_MSG_ID_DOG_MOTORS_CMD_MIN_LEN[m[K’
+[5.102s]   148 |     return mavlink_finalize_message_buffer(msg, system_id, component_id, _status, [01;36m[KMAVLINK_MSG_ID_DOG_MOTORS_CMD_MIN_LEN[m[K, MAVLINK_MSG_ID_DOG_MOTORS_CMD_LEN, MAVLINK_MSG_ID_DOG_MOTORS_CMD_CRC);
+[5.102s]       |                                                                                   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.102s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_cmd.h:17:43:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K260[m[K’ to ‘[01m[K4[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.102s]    17 | #define MAVLINK_MSG_ID_DOG_MOTORS_CMD_LEN [01;35m[K260[m[K
+[5.102s]       |                                           [01;35m[K^~~[m[K
+[5.102s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_cmd.h:148:122:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMAVLINK_MSG_ID_DOG_MOTORS_CMD_LEN[m[K’
+[5.103s]   148 | ze_message_buffer(msg, system_id, component_id, _status, MAVLINK_MSG_ID_DOG_MOTORS_CMD_MIN_LEN, [01;36m[KMAVLINK_MSG_ID_DOG_MOTORS_CMD_LEN[m[K, MAVLINK_MSG_ID_DOG_MOTORS_CMD_CRC);
+[5.103s]       |                                                                                                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.103s] 
+[5.103s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_cmd.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_dog_motors_cmd_pack_chan(uint8_t, uint8_t, uint8_t, mavlink_message_t*, uint64_t, const uint8_t*, const float*, const float*, const float*, const float*, const float*)[m[K’:
+[5.103s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_cmd.h:18:47:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K260[m[K’ to ‘[01m[K4[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.103s]    18 | #define MAVLINK_MSG_ID_DOG_MOTORS_CMD_MIN_LEN [01;35m[K260[m[K
+[5.103s]       |                                               [01;35m[K^~~[m[K
+[5.103s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_cmd.h:196:78:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMAVLINK_MSG_ID_DOG_MOTORS_CMD_MIN_LEN[m[K’
+[5.103s]   196 |     return mavlink_finalize_message_chan(msg, system_id, component_id, chan, [01;36m[KMAVLINK_MSG_ID_DOG_MOTORS_CMD_MIN_LEN[m[K, MAVLINK_MSG_ID_DOG_MOTORS_CMD_LEN, MAVLINK_MSG_ID_DOG_MOTORS_CMD_CRC);
+[5.103s]       |                                                                              [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.103s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_cmd.h:17:43:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K260[m[K’ to ‘[01m[K4[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.103s]    17 | #define MAVLINK_MSG_ID_DOG_MOTORS_CMD_LEN [01;35m[K260[m[K
+[5.103s]       |                                           [01;35m[K^~~[m[K
+[5.104s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_cmd.h:196:117:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMAVLINK_MSG_ID_DOG_MOTORS_CMD_LEN[m[K’
+[5.104s]   196 | inalize_message_chan(msg, system_id, component_id, chan, MAVLINK_MSG_ID_DOG_MOTORS_CMD_MIN_LEN, [01;36m[KMAVLINK_MSG_ID_DOG_MOTORS_CMD_LEN[m[K, MAVLINK_MSG_ID_DOG_MOTORS_CMD_CRC);
+[5.104s]       |                                                                                                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.104s] 
+[5.104s] In file included from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/robot_dog.h:57[m[K,
+[5.104s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/mavlink.h:39[m[K,
+[5.104s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/include/usb_device_driver/usb_reader_node.hpp:20[m[K,
+[5.104s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/src/main.cpp:1[m[K:
+[5.104s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_cmd.h:[m[K In function ‘[01m[Kvoid mavlink_msg_dog_motors_cmd_decode(const mavlink_message_t*, mavlink_dog_motors_cmd_t*)[m[K’:
+[5.104s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_cmd.h:419:32:[m[K [01;35m[Kwarning: [m[Kcomparison is always true due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[5.104s]   419 |         uint8_t len = msg->len [01;35m[K<[m[K MAVLINK_MSG_ID_DOG_MOTORS_CMD_LEN? msg->len : MAVLINK_MSG_ID_DOG_MOTORS_CMD_LEN;
+[5.104s]       |                                [01;35m[K^[m[K
+[5.104s] In file included from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/robot_dog.h:58[m[K,
+[5.104s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/mavlink.h:39[m[K,
+[5.104s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/include/usb_device_driver/usb_reader_node.hpp:20[m[K,
+[5.105s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/src/main.cpp:1[m[K:
+[5.105s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_dog_motors_state_pack(uint8_t, uint8_t, mavlink_message_t*, uint64_t, const uint8_t*, const float*, const float*, const float*, const float*, const float*, const uint8_t*)[m[K’:
+[5.105s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:19:49:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K272[m[K’ to ‘[01m[K16[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.105s]    19 | #define MAVLINK_MSG_ID_DOG_MOTORS_STATE_MIN_LEN [01;35m[K272[m[K
+[5.105s]       |                                                 [01;35m[K^~~[m[K
+[5.105s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:109:67:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMAVLINK_MSG_ID_DOG_MOTORS_STATE_MIN_LEN[m[K’
+[5.105s]   109 |     return mavlink_finalize_message(msg, system_id, component_id, [01;36m[KMAVLINK_MSG_ID_DOG_MOTORS_STATE_MIN_LEN[m[K, MAVLINK_MSG_ID_DOG_MOTORS_STATE_LEN, MAVLINK_MSG_ID_DOG_MOTORS_STATE_CRC);
+[5.105s]       |                                                                   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.105s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:18:45:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K272[m[K’ to ‘[01m[K16[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.105s]    18 | #define MAVLINK_MSG_ID_DOG_MOTORS_STATE_LEN [01;35m[K272[m[K
+[5.105s]       |                                             [01;35m[K^~~[m[K
+[5.105s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:109:108:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMAVLINK_MSG_ID_DOG_MOTORS_STATE_LEN[m[K’
+[5.105s]   109 | mavlink_finalize_message(msg, system_id, component_id, MAVLINK_MSG_ID_DOG_MOTORS_STATE_MIN_LEN, [01;36m[KMAVLINK_MSG_ID_DOG_MOTORS_STATE_LEN[m[K, MAVLINK_MSG_ID_DOG_MOTORS_STATE_CRC);
+[5.105s]       |                                                                                                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.106s] 
+[5.106s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_dog_motors_state_pack_status(uint8_t, uint8_t, mavlink_status_t*, mavlink_message_t*, uint64_t, const uint8_t*, const float*, const float*, const float*, const float*, const float*, const uint8_t*)[m[K’:
+[5.106s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:19:49:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K272[m[K’ to ‘[01m[K16[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.106s]    19 | #define MAVLINK_MSG_ID_DOG_MOTORS_STATE_MIN_LEN [01;35m[K272[m[K
+[5.106s]       |                                                 [01;35m[K^~~[m[K
+[5.106s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:158:83:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMAVLINK_MSG_ID_DOG_MOTORS_STATE_MIN_LEN[m[K’
+[5.106s]   158 |     return mavlink_finalize_message_buffer(msg, system_id, component_id, _status, [01;36m[KMAVLINK_MSG_ID_DOG_MOTORS_STATE_MIN_LEN[m[K, MAVLINK_MSG_ID_DOG_MOTORS_STATE_LEN, MAVLINK_MSG_ID_DOG_MOTORS_STATE_CRC);
+[5.106s]       |                                                                                   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.106s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:18:45:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K272[m[K’ to ‘[01m[K16[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.106s]    18 | #define MAVLINK_MSG_ID_DOG_MOTORS_STATE_LEN [01;35m[K272[m[K
+[5.106s]       |                                             [01;35m[K^~~[m[K
+[5.107s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:158:124:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMAVLINK_MSG_ID_DOG_MOTORS_STATE_LEN[m[K’
+[5.107s]   158 | _message_buffer(msg, system_id, component_id, _status, MAVLINK_MSG_ID_DOG_MOTORS_STATE_MIN_LEN, [01;36m[KMAVLINK_MSG_ID_DOG_MOTORS_STATE_LEN[m[K, MAVLINK_MSG_ID_DOG_MOTORS_STATE_CRC);
+[5.107s]       |                                                                                                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.107s] 
+[5.107s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_dog_motors_state_pack_chan(uint8_t, uint8_t, uint8_t, mavlink_message_t*, uint64_t, const uint8_t*, const float*, const float*, const float*, const float*, const float*, const uint8_t*)[m[K’:
+[5.107s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:19:49:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K272[m[K’ to ‘[01m[K16[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.107s]    19 | #define MAVLINK_MSG_ID_DOG_MOTORS_STATE_MIN_LEN [01;35m[K272[m[K
+[5.107s]       |                                                 [01;35m[K^~~[m[K
+[5.107s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:209:78:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMAVLINK_MSG_ID_DOG_MOTORS_STATE_MIN_LEN[m[K’
+[5.107s]   209 |     return mavlink_finalize_message_chan(msg, system_id, component_id, chan, [01;36m[KMAVLINK_MSG_ID_DOG_MOTORS_STATE_MIN_LEN[m[K, MAVLINK_MSG_ID_DOG_MOTORS_STATE_LEN, MAVLINK_MSG_ID_DOG_MOTORS_STATE_CRC);
+[5.107s]       |                                                                              [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.108s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:18:45:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K272[m[K’ to ‘[01m[K16[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.108s]    18 | #define MAVLINK_MSG_ID_DOG_MOTORS_STATE_LEN [01;35m[K272[m[K
+[5.108s]       |                                             [01;35m[K^~~[m[K
+[5.108s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:209:119:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMAVLINK_MSG_ID_DOG_MOTORS_STATE_LEN[m[K’
+[5.108s]   209 | alize_message_chan(msg, system_id, component_id, chan, MAVLINK_MSG_ID_DOG_MOTORS_STATE_MIN_LEN, [01;36m[KMAVLINK_MSG_ID_DOG_MOTORS_STATE_LEN[m[K, MAVLINK_MSG_ID_DOG_MOTORS_STATE_CRC);
+[5.108s]       |                                                                                                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.108s] 
+[5.108s] In file included from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/robot_dog.h:58[m[K,
+[5.108s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/mavlink.h:39[m[K,
+[5.108s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/include/usb_device_driver/usb_reader_node.hpp:20[m[K,
+[5.109s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/src/main.cpp:1[m[K:
+[5.109s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_dog_motors_state_get_statuses(const mavlink_message_t*, uint8_t*)[m[K’:
+[5.109s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:427:58:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K260[m[K’ to ‘[01m[K4[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.109s]   427 |     return _MAV_RETURN_uint8_t_array(msg, statuses, 12,  [01;35m[K260[m[K);
+[5.109s]       |                                                          [01;35m[K^~~[m[K
+[5.109s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:[m[K In function ‘[01m[Kvoid mavlink_msg_dog_motors_state_decode(const mavlink_message_t*, mavlink_dog_motors_state_t*)[m[K’:
+[5.109s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:448:32:[m[K [01;35m[Kwarning: [m[Kcomparison is always true due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[5.109s]   448 |         uint8_t len = msg->len [01;35m[K<[m[K MAVLINK_MSG_ID_DOG_MOTORS_STATE_LEN? msg->len : MAVLINK_MSG_ID_DOG_MOTORS_STATE_LEN;
+[5.109s]       |                                [01;35m[K^[m[K
+[5.160s] In file included from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/../protocol.h:4[m[K,
+[5.160s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/robot_dog.h:35[m[K,
+[5.160s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/mavlink.h:39[m[K,
+[5.161s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/include/usb_device_driver/usb_reader_node.hpp:20[m[K,
+[5.161s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/src/usb_reader_node.cpp:1[m[K:
+[5.161s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/../mavlink_types.h:78:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.161s]    78 |     struct [01;35m[K{[m[K
+[5.161s]       |            [01;35m[K^[m[K
+[5.161s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/../mavlink_types.h:17:40:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KMAVPACKED[m[K’
+[5.161s]    17 |   #define MAVPACKED( __Declaration__ ) [01;36m[K__Declaration__[m[K __attribute__((packed))
+[5.161s]       |                                        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[5.170s] In file included from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/mavlink.h:39[m[K,
+[5.171s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/include/usb_device_driver/usb_reader_node.hpp:20[m[K,
+[5.171s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/src/usb_reader_node.cpp:1[m[K:
+[5.171s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/../mavlink_helpers.h:[m[K In function ‘[01m[Kconst mavlink_msg_entry_t* mavlink_get_msg_entry(uint32_t)[m[K’:
+[5.171s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/robot_dog.h:31:42:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K260[m[K’ to ‘[01m[K4[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.171s]    31 | #define MAVLINK_MESSAGE_CRCS {{230, 160, [01;35m[K260[m[K, 260, 0, 0, 0}, {231, 156, 272, 272, 0, 0, 0}, {232, 36, 48, 48, 0, 0, 0}}
+[5.171s]       |                                          [01;35m[K^~~[m[K
+[5.172s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/../mavlink_helpers.h:520:67:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMAVLINK_MESSAGE_CRCS[m[K’
+[5.172s]   520 |         static const mavlink_msg_entry_t mavlink_message_crcs[] = [01;36m[KMAVLINK_MESSAGE_CRCS[m[K;
+[5.172s]       |                                                                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[5.172s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/robot_dog.h:31:47:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K260[m[K’ to ‘[01m[K4[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.172s]    31 | #define MAVLINK_MESSAGE_CRCS {{230, 160, 260, [01;35m[K260[m[K, 0, 0, 0}, {231, 156, 272, 272, 0, 0, 0}, {232, 36, 48, 48, 0, 0, 0}}
+[5.172s]       |                                               [01;35m[K^~~[m[K
+[5.172s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/../mavlink_helpers.h:520:67:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMAVLINK_MESSAGE_CRCS[m[K’
+[5.172s]   520 |         static const mavlink_msg_entry_t mavlink_message_crcs[] = [01;36m[KMAVLINK_MESSAGE_CRCS[m[K;
+[5.172s]       |                                                                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[5.173s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/robot_dog.h:31:73:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K272[m[K’ to ‘[01m[K16[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.173s]    31 | #define MAVLINK_MESSAGE_CRCS {{230, 160, 260, 260, 0, 0, 0}, {231, 156, [01;35m[K272[m[K, 272, 0, 0, 0}, {232, 36, 48, 48, 0, 0, 0}}
+[5.173s]       |                                                                         [01;35m[K^~~[m[K
+[5.173s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/../mavlink_helpers.h:520:67:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMAVLINK_MESSAGE_CRCS[m[K’
+[5.173s]   520 |         static const mavlink_msg_entry_t mavlink_message_crcs[] = [01;36m[KMAVLINK_MESSAGE_CRCS[m[K;
+[5.173s]       |                                                                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[5.173s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/robot_dog.h:31:78:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K272[m[K’ to ‘[01m[K16[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.173s]    31 | #define MAVLINK_MESSAGE_CRCS {{230, 160, 260, 260, 0, 0, 0}, {231, 156, 272, [01;35m[K272[m[K, 0, 0, 0}, {232, 36, 48, 48, 0, 0, 0}}
+[5.173s]       |                                                                              [01;35m[K^~~[m[K
+[5.173s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/../mavlink_helpers.h:520:67:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMAVLINK_MESSAGE_CRCS[m[K’
+[5.173s]   520 |         static const mavlink_msg_entry_t mavlink_message_crcs[] = [01;36m[KMAVLINK_MESSAGE_CRCS[m[K;
+[5.174s]       |                                                                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[5.177s] In file included from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/robot_dog.h:57[m[K,
+[5.177s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/mavlink.h:39[m[K,
+[5.178s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/include/usb_device_driver/usb_reader_node.hpp:20[m[K,
+[5.178s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/src/usb_reader_node.cpp:1[m[K:
+[5.178s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_cmd.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_dog_motors_cmd_pack(uint8_t, uint8_t, mavlink_message_t*, uint64_t, const uint8_t*, const float*, const float*, const float*, const float*, const float*)[m[K’:
+[5.178s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_cmd.h:18:47:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K260[m[K’ to ‘[01m[K4[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.178s]    18 | #define MAVLINK_MSG_ID_DOG_MOTORS_CMD_MIN_LEN [01;35m[K260[m[K
+[5.179s]       |                                               [01;35m[K^~~[m[K
+[5.179s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_cmd.h:102:67:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMAVLINK_MSG_ID_DOG_MOTORS_CMD_MIN_LEN[m[K’
+[5.179s]   102 |     return mavlink_finalize_message(msg, system_id, component_id, [01;36m[KMAVLINK_MSG_ID_DOG_MOTORS_CMD_MIN_LEN[m[K, MAVLINK_MSG_ID_DOG_MOTORS_CMD_LEN, MAVLINK_MSG_ID_DOG_MOTORS_CMD_CRC);
+[5.179s]       |                                                                   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.179s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_cmd.h:17:43:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K260[m[K’ to ‘[01m[K4[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.179s]    17 | #define MAVLINK_MSG_ID_DOG_MOTORS_CMD_LEN [01;35m[K260[m[K
+[5.179s]       |                                           [01;35m[K^~~[m[K
+[5.180s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_cmd.h:102:106:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMAVLINK_MSG_ID_DOG_MOTORS_CMD_LEN[m[K’
+[5.180s]   102 |     return mavlink_finalize_message(msg, system_id, component_id, MAVLINK_MSG_ID_DOG_MOTORS_CMD_MIN_LEN, [01;36m[KMAVLINK_MSG_ID_DOG_MOTORS_CMD_LEN[m[K, MAVLINK_MSG_ID_DOG_MOTORS_CMD_CRC);
+[5.180s]       |                                                                                                          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.180s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_cmd.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_dog_motors_cmd_pack_status(uint8_t, uint8_t, mavlink_status_t*, mavlink_message_t*, uint64_t, const uint8_t*, const float*, const float*, const float*, const float*, const float*)[m[K’:
+[5.180s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_cmd.h:18:47:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K260[m[K’ to ‘[01m[K4[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.181s]    18 | #define MAVLINK_MSG_ID_DOG_MOTORS_CMD_MIN_LEN [01;35m[K260[m[K
+[5.181s]       |                                               [01;35m[K^~~[m[K
+[5.181s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_cmd.h:148:83:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMAVLINK_MSG_ID_DOG_MOTORS_CMD_MIN_LEN[m[K’
+[5.181s]   148 |     return mavlink_finalize_message_buffer(msg, system_id, component_id, _status, [01;36m[KMAVLINK_MSG_ID_DOG_MOTORS_CMD_MIN_LEN[m[K, MAVLINK_MSG_ID_DOG_MOTORS_CMD_LEN, MAVLINK_MSG_ID_DOG_MOTORS_CMD_CRC);
+[5.181s]       |                                                                                   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.181s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_cmd.h:17:43:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K260[m[K’ to ‘[01m[K4[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.181s]    17 | #define MAVLINK_MSG_ID_DOG_MOTORS_CMD_LEN [01;35m[K260[m[K
+[5.181s]       |                                           [01;35m[K^~~[m[K
+[5.181s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_cmd.h:148:122:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMAVLINK_MSG_ID_DOG_MOTORS_CMD_LEN[m[K’
+[5.181s]   148 |     return mavlink_finalize_message_buffer(msg, system_id, component_id, _status, MAVLINK_MSG_ID_DOG_MOTORS_CMD_MIN_LEN, [01;36m[KMAVLINK_MSG_ID_DOG_MOTORS_CMD_LEN[m[K, MAVLINK_MSG_ID_DOG_MOTORS_CMD_CRC);
+[5.182s]       |                                                                                                                          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.182s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_cmd.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_dog_motors_cmd_pack_chan(uint8_t, uint8_t, uint8_t, mavlink_message_t*, uint64_t, const uint8_t*, const float*, const float*, const float*, const float*, const float*)[m[K’:
+[5.182s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_cmd.h:18:47:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K260[m[K’ to ‘[01m[K4[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.182s]    18 | #define MAVLINK_MSG_ID_DOG_MOTORS_CMD_MIN_LEN [01;35m[K260[m[K
+[5.182s]       |                                               [01;35m[K^~~[m[K
+[5.182s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_cmd.h:196:78:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMAVLINK_MSG_ID_DOG_MOTORS_CMD_MIN_LEN[m[K’
+[5.182s]   196 |     return mavlink_finalize_message_chan(msg, system_id, component_id, chan, [01;36m[KMAVLINK_MSG_ID_DOG_MOTORS_CMD_MIN_LEN[m[K, MAVLINK_MSG_ID_DOG_MOTORS_CMD_LEN, MAVLINK_MSG_ID_DOG_MOTORS_CMD_CRC);
+[5.182s]       |                                                                              [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.182s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_cmd.h:17:43:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K260[m[K’ to ‘[01m[K4[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.183s]    17 | #define MAVLINK_MSG_ID_DOG_MOTORS_CMD_LEN [01;35m[K260[m[K
+[5.183s]       |                                           [01;35m[K^~~[m[K
+[5.183s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_cmd.h:196:117:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMAVLINK_MSG_ID_DOG_MOTORS_CMD_LEN[m[K’
+[5.183s]   196 |     return mavlink_finalize_message_chan(msg, system_id, component_id, chan, MAVLINK_MSG_ID_DOG_MOTORS_CMD_MIN_LEN, [01;36m[KMAVLINK_MSG_ID_DOG_MOTORS_CMD_LEN[m[K, MAVLINK_MSG_ID_DOG_MOTORS_CMD_CRC);
+[5.183s]       |                                                                                                                     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.183s] In file included from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/robot_dog.h:57[m[K,
+[5.183s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/mavlink.h:39[m[K,
+[5.183s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/include/usb_device_driver/usb_reader_node.hpp:20[m[K,
+[5.183s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/src/usb_reader_node.cpp:1[m[K:
+[5.183s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_cmd.h:[m[K In function ‘[01m[Kvoid mavlink_msg_dog_motors_cmd_decode(const mavlink_message_t*, mavlink_dog_motors_cmd_t*)[m[K’:
+[5.183s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_cmd.h:419:32:[m[K [01;35m[Kwarning: [m[Kcomparison is always true due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[5.184s]   419 |         uint8_t len = msg->len [01;35m[K<[m[K MAVLINK_MSG_ID_DOG_MOTORS_CMD_LEN? msg->len : MAVLINK_MSG_ID_DOG_MOTORS_CMD_LEN;
+[5.184s]       |                                [01;35m[K^[m[K
+[5.184s] In file included from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/robot_dog.h:58[m[K,
+[5.184s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/mavlink.h:39[m[K,
+[5.184s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/include/usb_device_driver/usb_reader_node.hpp:20[m[K,
+[5.184s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/src/usb_reader_node.cpp:1[m[K:
+[5.184s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_dog_motors_state_pack(uint8_t, uint8_t, mavlink_message_t*, uint64_t, const uint8_t*, const float*, const float*, const float*, const float*, const float*, const uint8_t*)[m[K’:
+[5.184s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:19:49:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K272[m[K’ to ‘[01m[K16[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.184s]    19 | #define MAVLINK_MSG_ID_DOG_MOTORS_STATE_MIN_LEN [01;35m[K272[m[K
+[5.184s]       |                                                 [01;35m[K^~~[m[K
+[5.184s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:109:67:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMAVLINK_MSG_ID_DOG_MOTORS_STATE_MIN_LEN[m[K’
+[5.185s]   109 |     return mavlink_finalize_message(msg, system_id, component_id, [01;36m[KMAVLINK_MSG_ID_DOG_MOTORS_STATE_MIN_LEN[m[K, MAVLINK_MSG_ID_DOG_MOTORS_STATE_LEN, MAVLINK_MSG_ID_DOG_MOTORS_STATE_CRC);
+[5.185s]       |                                                                   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.185s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:18:45:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K272[m[K’ to ‘[01m[K16[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.185s]    18 | #define MAVLINK_MSG_ID_DOG_MOTORS_STATE_LEN [01;35m[K272[m[K
+[5.185s]       |                                             [01;35m[K^~~[m[K
+[5.185s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:109:108:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMAVLINK_MSG_ID_DOG_MOTORS_STATE_LEN[m[K’
+[5.185s]   109 |     return mavlink_finalize_message(msg, system_id, component_id, MAVLINK_MSG_ID_DOG_MOTORS_STATE_MIN_LEN, [01;36m[KMAVLINK_MSG_ID_DOG_MOTORS_STATE_LEN[m[K, MAVLINK_MSG_ID_DOG_MOTORS_STATE_CRC);
+[5.185s]       |                                                                                                            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.185s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_dog_motors_state_pack_status(uint8_t, uint8_t, mavlink_status_t*, mavlink_message_t*, uint64_t, const uint8_t*, const float*, const float*, const float*, const float*, const float*, const uint8_t*)[m[K’:
+[5.185s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:19:49:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K272[m[K’ to ‘[01m[K16[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.185s]    19 | #define MAVLINK_MSG_ID_DOG_MOTORS_STATE_MIN_LEN [01;35m[K272[m[K
+[5.186s]       |                                                 [01;35m[K^~~[m[K
+[5.186s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:158:83:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMAVLINK_MSG_ID_DOG_MOTORS_STATE_MIN_LEN[m[K’
+[5.186s]   158 |     return mavlink_finalize_message_buffer(msg, system_id, component_id, _status, [01;36m[KMAVLINK_MSG_ID_DOG_MOTORS_STATE_MIN_LEN[m[K, MAVLINK_MSG_ID_DOG_MOTORS_STATE_LEN, MAVLINK_MSG_ID_DOG_MOTORS_STATE_CRC);
+[5.186s]       |                                                                                   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.186s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:18:45:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K272[m[K’ to ‘[01m[K16[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.186s]    18 | #define MAVLINK_MSG_ID_DOG_MOTORS_STATE_LEN [01;35m[K272[m[K
+[5.186s]       |                                             [01;35m[K^~~[m[K
+[5.186s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:158:124:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMAVLINK_MSG_ID_DOG_MOTORS_STATE_LEN[m[K’
+[5.186s]   158 |     return mavlink_finalize_message_buffer(msg, system_id, component_id, _status, MAVLINK_MSG_ID_DOG_MOTORS_STATE_MIN_LEN, [01;36m[KMAVLINK_MSG_ID_DOG_MOTORS_STATE_LEN[m[K, MAVLINK_MSG_ID_DOG_MOTORS_STATE_CRC);
+[5.186s]       |                                                                                                                            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.186s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_dog_motors_state_pack_chan(uint8_t, uint8_t, uint8_t, mavlink_message_t*, uint64_t, const uint8_t*, const float*, const float*, const float*, const float*, const float*, const uint8_t*)[m[K’:
+[5.187s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:19:49:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K272[m[K’ to ‘[01m[K16[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.187s]    19 | #define MAVLINK_MSG_ID_DOG_MOTORS_STATE_MIN_LEN [01;35m[K272[m[K
+[5.187s]       |                                                 [01;35m[K^~~[m[K
+[5.187s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:209:78:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMAVLINK_MSG_ID_DOG_MOTORS_STATE_MIN_LEN[m[K’
+[5.187s]   209 |     return mavlink_finalize_message_chan(msg, system_id, component_id, chan, [01;36m[KMAVLINK_MSG_ID_DOG_MOTORS_STATE_MIN_LEN[m[K, MAVLINK_MSG_ID_DOG_MOTORS_STATE_LEN, MAVLINK_MSG_ID_DOG_MOTORS_STATE_CRC);
+[5.187s]       |                                                                              [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.187s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:18:45:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K272[m[K’ to ‘[01m[K16[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.187s]    18 | #define MAVLINK_MSG_ID_DOG_MOTORS_STATE_LEN [01;35m[K272[m[K
+[5.187s]       |                                             [01;35m[K^~~[m[K
+[5.187s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:209:119:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMAVLINK_MSG_ID_DOG_MOTORS_STATE_LEN[m[K’
+[5.187s]   209 |     return mavlink_finalize_message_chan(msg, system_id, component_id, chan, MAVLINK_MSG_ID_DOG_MOTORS_STATE_MIN_LEN, [01;36m[KMAVLINK_MSG_ID_DOG_MOTORS_STATE_LEN[m[K, MAVLINK_MSG_ID_DOG_MOTORS_STATE_CRC);
+[5.188s]       |                                                                                                                       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.188s] In file included from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/robot_dog.h:58[m[K,
+[5.188s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/mavlink.h:39[m[K,
+[5.188s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/include/usb_device_driver/usb_reader_node.hpp:20[m[K,
+[5.188s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/src/usb_reader_node.cpp:1[m[K:
+[5.188s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_dog_motors_state_get_statuses(const mavlink_message_t*, uint8_t*)[m[K’:
+[5.188s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:427:58:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K260[m[K’ to ‘[01m[K4[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.188s]   427 |     return _MAV_RETURN_uint8_t_array(msg, statuses, 12,  [01;35m[K260[m[K);
+[5.188s]       |                                                          [01;35m[K^~~[m[K
+[5.188s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:[m[K In function ‘[01m[Kvoid mavlink_msg_dog_motors_state_decode(const mavlink_message_t*, mavlink_dog_motors_state_t*)[m[K’:
+[5.188s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/./mavlink_msg_dog_motors_state.h:448:32:[m[K [01;35m[Kwarning: [m[Kcomparison is always true due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[5.189s]   448 |         uint8_t len = msg->len [01;35m[K<[m[K MAVLINK_MSG_ID_DOG_MOTORS_STATE_LEN? msg->len : MAVLINK_MSG_ID_DOG_MOTORS_STATE_LEN;
+[5.189s]       |                                [01;35m[K^[m[K
+[5.509s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/src/usb_reader_node.cpp:[m[K In member function ‘[01m[Kvoid usb_device_driver::USBReaderNode::sendMotorCmdToSerial(usb_device_driver::msg::MotorsCmd_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.510s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/src/usb_reader_node.cpp:548:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kmavlink_message_t[m[K’ {aka ‘[01m[Kstruct __mavlink_message[m[K’} has no member named ‘[01m[Kbuf[m[K’
+[5.510s]   548 |                 serial_port_.Write(reinterpret_cast<const char*>(mav_msg.[01;31m[Kbuf[m[K), len);
+[5.510s]       |                                                                          [01;31m[K^~~[m[K
+[5.512s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.512s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.512s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.512s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.512s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.512s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.512s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.512s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.512s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.512s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.512s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.513s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/include/usb_device_driver/usb_reader_node.hpp:4[m[K,
+[5.513s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/src/usb_reader_node.cpp:1[m[K:
+[5.513s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/src/usb_reader_node.cpp:[m[K In member function ‘[01m[Kvoid usb_device_driver::USBReaderNode::handleReceivedMavlinkData(const uint8_t*, size_t)[m[K’:
+[5.513s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/src/usb_reader_node.cpp:606:61:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[5.513s]   606 |                             RCLCPP_INFO(this->get_logger(), [01;35m[K"发布电机状态消息到ROS2:，长度：%d"[m[K, [32m[Klen[m[K);
+[5.513s]       |                                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~[m[K
+[5.513s]       |                                                                                                  [32m[K|[m[K
+[5.513s]       |                                                                                                  [32m[Ksize_t {aka long unsigned int}[m[K
+[5.513s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/src/usb_reader_node.cpp:606:94:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[5.513s]   606 |                             RCLCPP_INFO(this->get_logger(), "发布电机状态消息到ROS2:，长度：[01;36m[K%d[m[K", len);
+[5.513s]       |                                                                                             [01;36m[K~^[m[K
+[5.513s]       |                                                                                              [01;36m[K|[m[K
+[5.513s]       |                                                                                              [01;36m[Kint[m[K
+[5.513s]       |                                                                                             [32m[K%ld[m[K
+[5.513s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.514s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.514s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.514s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.514s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.514s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.514s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.514s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.514s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.514s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.514s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.514s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/include/usb_device_driver/usb_reader_node.hpp:4[m[K,
+[5.514s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/src/usb_reader_node.cpp:1[m[K:
+[5.514s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/src/usb_reader_node.cpp:645:61:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[5.514s]   645 |                             RCLCPP_INFO(this->get_logger(), [01;35m[K"发布IMU数据消息到ROS2:，长度：%d"[m[K, [32m[Klen[m[K);
+[5.514s]       |                                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~[m[K
+[5.514s]       |                                                                                                 [32m[K|[m[K
+[5.515s]       |                                                                                                 [32m[Ksize_t {aka long unsigned int}[m[K
+[5.515s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/src/usb_reader_node.cpp:645:93:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[5.515s]   645 |                             RCLCPP_INFO(this->get_logger(), "发布IMU数据消息到ROS2:，长度：[01;36m[K%d[m[K", len);
+[5.515s]       |                                                                                            [01;36m[K~^[m[K
+[5.515s]       |                                                                                             [01;36m[K|[m[K
+[5.515s]       |                                                                                             [01;36m[Kint[m[K
+[5.515s]       |                                                                                            [32m[K%ld[m[K
+[8.032s] gmake[2]: *** [CMakeFiles/usb_reader_node.dir/build.make:90：CMakeFiles/usb_reader_node.dir/src/usb_reader_node.cpp.o] 错误 1
+[8.032s] gmake[1]: *** [CMakeFiles/Makefile2:593：CMakeFiles/usb_reader_node.dir/all] 错误 2
+[8.032s] gmake: *** [Makefile:146：all] 错误 2
+[8.035s] Invoked command in '/home/miles/usb_ros2_ws/build/usb_device_driver' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/miles/usb_ros2_ws/build/usb_device_driver -- -j12 -l12

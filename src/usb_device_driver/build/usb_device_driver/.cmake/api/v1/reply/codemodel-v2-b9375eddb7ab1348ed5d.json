@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-26decebb2876dd5ca736.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "usb_device_driver__py",
+					"jsonFile" : "directory-usb_device_driver__py-52cd9c942a7a5480e74e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "build/usb_device_driver/usb_device_driver__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "usb_device_driver",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_usb_device_driver_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_usb_device_driver_egg-b18b70f2ffd965c8a004.json",
+					"name" : "ament_cmake_python_build_usb_device_driver_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_usb_device_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_usb_device_driver-17270b51dc6678d68c0c.json",
+					"name" : "ament_cmake_python_copy_usb_device_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-921876ee62f94f60e5af.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usb_device_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usb_device_driver-7da63e6e5c4635321a3b.json",
+					"name" : "usb_device_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usb_device_driver__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usb_device_driver__cpp-c87a341d368a76dfa566.json",
+					"name" : "usb_device_driver__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "usb_device_driver__py::@facb403dadd5a0f4d71c",
+					"jsonFile" : "target-usb_device_driver__py-1f2d9125fc0ad306c794.json",
+					"name" : "usb_device_driver__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usb_device_driver__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usb_device_driver__rosidl_generator_c-85f091dc2798feb9d1c6.json",
+					"name" : "usb_device_driver__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usb_device_driver__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usb_device_driver__rosidl_generator_py-a28e5b363663512bd171.json",
+					"name" : "usb_device_driver__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usb_device_driver__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usb_device_driver__rosidl_typesupport_c-7ddcf7f79c82129cda34.json",
+					"name" : "usb_device_driver__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usb_device_driver__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usb_device_driver__rosidl_typesupport_c__pyext-f0d19b5066abe180218f.json",
+					"name" : "usb_device_driver__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usb_device_driver__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usb_device_driver__rosidl_typesupport_cpp-140d32998f83bb571054.json",
+					"name" : "usb_device_driver__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usb_device_driver__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usb_device_driver__rosidl_typesupport_fastrtps_c-d834d825acdd6e88d0d6.json",
+					"name" : "usb_device_driver__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usb_device_driver__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usb_device_driver__rosidl_typesupport_fastrtps_c__pyext-69360af0eb64cd44f0b1.json",
+					"name" : "usb_device_driver__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usb_device_driver__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usb_device_driver__rosidl_typesupport_fastrtps_cpp-2e9ac0cbb07fcef5467a.json",
+					"name" : "usb_device_driver__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usb_device_driver__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usb_device_driver__rosidl_typesupport_introspection_c-7ffc0b5f00a74f8fea64.json",
+					"name" : "usb_device_driver__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usb_device_driver__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usb_device_driver__rosidl_typesupport_introspection_c__pyext-9b1c7df7651be29025c1.json",
+					"name" : "usb_device_driver__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usb_device_driver__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usb_device_driver__rosidl_typesupport_introspection_cpp-0896aac6d0babb024aff.json",
+					"name" : "usb_device_driver__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usb_device_driver_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usb_device_driver_uninstall-34a4e774c899ff6604de.json",
+					"name" : "usb_device_driver_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usb_reader_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usb_reader_node-dd7c36bdfd85f0313772.json",
+					"name" : "usb_reader_node",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/miles/usb_ros2_ws/src/usb_device_driver/build/usb_device_driver",
+		"source" : "/home/miles/usb_ros2_ws/src/usb_device_driver"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

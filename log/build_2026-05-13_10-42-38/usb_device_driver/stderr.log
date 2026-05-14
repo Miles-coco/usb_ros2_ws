@@ -1,0 +1,16 @@
+In file included from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/src/main.cpp:1[m[K:
+[01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/include/usb_device_driver/usb_reader_node.hpp:15:10:[m[K [01;31m[Kfatal error: [m[Kusb_device_driver/msg/IMUData.hpp: 没有那个文件或目录
+   15 | #include [01;31m[K"usb_device_driver/msg/IMUData.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/src/usb_reader_node.cpp:1[m[K:
+[01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/include/usb_device_driver/usb_reader_node.hpp:15:10:[m[K [01;31m[Kfatal error: [m[Kusb_device_driver/msg/IMUData.hpp: 没有那个文件或目录
+   15 | #include [01;31m[K"usb_device_driver/msg/IMUData.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/usb_reader_node.dir/build.make:76：CMakeFiles/usb_reader_node.dir/src/main.cpp.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+gmake[2]: *** [CMakeFiles/usb_reader_node.dir/build.make:90：CMakeFiles/usb_reader_node.dir/src/usb_reader_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:592：CMakeFiles/usb_reader_node.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2

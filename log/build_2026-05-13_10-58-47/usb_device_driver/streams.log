@@ -1,0 +1,41 @@
+[0.009s] Invoking command in '/home/miles/usb_ros2_ws/build/usb_device_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/miles/usb_ros2_ws/build/usb_device_driver -- -j12 -l12
+[0.058s] [  2%] Built target usb_device_driver__cpp
+[0.058s] [ 12%] Built target usb_device_driver__rosidl_generator_c
+[0.068s] [ 12%] Built target ament_cmake_python_copy_usb_device_driver
+[0.078s] [ 22%] Built target usb_device_driver__rosidl_typesupport_introspection_c
+[0.079s] [ 38%] Built target usb_device_driver__rosidl_typesupport_cpp
+[0.079s] [ 42%] Built target usb_device_driver__rosidl_typesupport_fastrtps_cpp
+[0.079s] [ 52%] Built target usb_device_driver__rosidl_typesupport_introspection_cpp
+[0.080s] [ 68%] Built target usb_device_driver__rosidl_typesupport_c
+[0.080s] [ 72%] Built target usb_device_driver__rosidl_typesupport_fastrtps_c
+[0.099s] [ 72%] Built target usb_device_driver
+[0.102s] [ 76%] [32mBuilding CXX object CMakeFiles/usb_reader_node.dir/src/main.cpp.o[0m
+[0.103s] [ 76%] [32mBuilding CXX object CMakeFiles/usb_reader_node.dir/src/usb_reader_node.cpp.o[0m
+[0.119s] [ 78%] Built target usb_device_driver__py
+[0.141s] [ 86%] Built target usb_device_driver__rosidl_generator_py
+[0.162s] [ 94%] Built target usb_device_driver__rosidl_typesupport_fastrtps_c__pyext
+[0.162s] [ 94%] Built target usb_device_driver__rosidl_typesupport_introspection_c__pyext
+[0.162s] [ 98%] Built target usb_device_driver__rosidl_typesupport_c__pyext
+[0.267s] running egg_info
+[0.268s] writing usb_device_driver.egg-info/PKG-INFO
+[0.268s] writing dependency_links to usb_device_driver.egg-info/dependency_links.txt
+[0.268s] writing top-level names to usb_device_driver.egg-info/top_level.txt
+[0.270s] reading manifest file 'usb_device_driver.egg-info/SOURCES.txt'
+[0.270s] writing manifest file 'usb_device_driver.egg-info/SOURCES.txt'
+[0.296s] [ 98%] Built target ament_cmake_python_build_usb_device_driver_egg
+[0.310s] In file included from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/src/usb_reader_node.cpp:1[m[K:
+[0.310s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/include/usb_device_driver/usb_reader_node.hpp:15:10:[m[K [01;31m[Kfatal error: [m[Kusb_device_driver/msg/IMUData.hpp: 没有那个文件或目录
+[0.310s]    15 | #include [01;31m[K"usb_device_driver/msg/IMUData.hpp"[m[K
+[0.310s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.310s] compilation terminated.
+[0.313s] In file included from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/src/main.cpp:1[m[K:
+[0.313s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/include/usb_device_driver/usb_reader_node.hpp:15:10:[m[K [01;31m[Kfatal error: [m[Kusb_device_driver/msg/IMUData.hpp: 没有那个文件或目录
+[0.313s]    15 | #include [01;31m[K"usb_device_driver/msg/IMUData.hpp"[m[K
+[0.313s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.313s] compilation terminated.
+[0.313s] gmake[2]: *** [CMakeFiles/usb_reader_node.dir/build.make:90：CMakeFiles/usb_reader_node.dir/src/usb_reader_node.cpp.o] 错误 1
+[0.313s] gmake[2]: *** 正在等待未完成的任务....
+[0.316s] gmake[2]: *** [CMakeFiles/usb_reader_node.dir/build.make:76：CMakeFiles/usb_reader_node.dir/src/main.cpp.o] 错误 1
+[0.317s] gmake[1]: *** [CMakeFiles/Makefile2:593：CMakeFiles/usb_reader_node.dir/all] 错误 2
+[0.317s] gmake: *** [Makefile:146：all] 错误 2
+[0.319s] Invoked command in '/home/miles/usb_ros2_ws/build/usb_device_driver' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/miles/usb_ros2_ws/build/usb_device_driver -- -j12 -l12

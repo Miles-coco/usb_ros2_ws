@@ -1,0 +1,8 @@
+{
+  "package_name": "usb_device_driver",
+  "non_idl_tuples": [
+    "/home/miles/usb_ros2_ws/src/usb_device_driver:msg/IMUData.msg",
+    "/home/miles/usb_ros2_ws/src/usb_device_driver:msg/MotorsCmd.msg",
+    "/home/miles/usb_ros2_ws/src/usb_device_driver:msg/MotorsStates.msg"
+  ]
+}
