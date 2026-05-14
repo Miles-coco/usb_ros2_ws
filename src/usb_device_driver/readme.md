@@ -5,10 +5,10 @@
 ## 功能特性
 
 - **实时数据读取**：通过USB串口实时读取设备数据
-- **多格式解析**：支持JSON、CSV和空格分隔格式的数据解析
 - **自动设备检测**：自动发现可用的USB串口设备
 - **连接管理**：监控连接状态并支持自动重连
-- **多话题发布**：发布原始数据、解析数据和速度消息
+- **多话题发布**：发布IMU和电机状态的ros2话题
+- **订阅外部话题**：订阅外部的电机命令话题  
 
 ## 依赖项
 
@@ -65,9 +65,8 @@ ros2 launch usb_device_driver usb_reader.launch.py port:=/dev/ttyUSB0 baudrate:=
 
 ## 发布的话题
 
-- `/usb/raw_data` (std_msgs/String) - 原始串口数据
-- `/usb/parsed_data` (std_msgs/String) - 解析后的数据
-- `/usb/velocity` (geometry_msgs/Twist) - 解析的速度数据
+- `/imu/data` (sensor_msgs/IMU) - IMU传感器数据
+- `/motor_states` (自定义消息类型) - 电机状态数据
 
 ## 配置文件
 
@@ -119,6 +118,7 @@ python3 /home/miles/.local/bin/mavgen.py   --lang=C++11   --wire-protocol=2.0   
    ```
 
 3. **编译错误**：确保已安装libserial-dev
+   
    ```bash
    sudo apt-get install libserial-dev
    ```
