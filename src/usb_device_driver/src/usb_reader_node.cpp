@@ -334,7 +334,7 @@ namespace usb_device_driver
                     // 保留未完成的消息部分在缓冲区中
                     // 由于mavlink_parse_char会处理字节顺序和消息完整性，
                     // 我们保留整个缓冲区，让解析器处理消息边界
-                    
+
                     if (this->debug_)
                     {
                         RCLCPP_INFO(this->get_logger(), "接收: %zu 字节", bytes_read);
@@ -457,101 +457,6 @@ namespace usb_device_driver
         catch (const std::exception &e)
         {
             RCLCPP_ERROR(this->get_logger(), "发送电机命令到串口时出错: %s", e.what());
-        }
-    }
-
-    void USBReaderNode::handleReceivedMavlinkData(const uint8_t *data, size_t len)
-    {
-        // 解析MAVLink消息
-        mavlink_message_t msg;
-        mavlink_status_t status;
-
-        for (size_t i = 0; i < len; i++)
-        {
-            if (mavlink_parse_char(MAVLINK_COMM_0, data[i], &msg, &status))
-            {
-                // 处理解析到的MAVLink消息
-                switch (msg.msgid)
-                {
-                case MAVLINK_MSG_ID_DOG_MOTORS_STATE:
-                {
-                    // 解析电机状态消息
-                    mavlink_dog_motors_state_t dog_motors_state;
-                    mavlink_msg_dog_motors_state_decode(&msg, &dog_motors_state);
-
-                    // 创建并发布ROS2电机状态消息
-                    auto motor_state_msg = usb_device_driver::msg::MotorsStates();
-
-                    // 设置时间戳
-                    auto now = this->get_clock()->now();
-                    motor_state_msg.timestamp.sec = now.seconds();
-                    motor_state_msg.timestamp.nanosec = now.nanoseconds() % 1000000000UL;
-
-                    // 赋值数据
-                    for (int j = 0; j < 12; j++)
-                    {
-                        motor_state_msg.motor_ids[j] = static_cast<float>(dog_motors_state.motors_id[j]);
-                        motor_state_msg.positions[j] = dog_motors_state.positions[j];
-                        motor_state_msg.velocities[j] = dog_motors_state.velocities[j];
-                        motor_state_msg.torques[j] = dog_motors_state.torques[j];
-                        motor_state_msg.currents[j] = dog_motors_state.currents[j];
-                        motor_state_msg.temperatures[j] = dog_motors_state.temperatures[j];
-                        motor_state_msg.statuses[j] = dog_motors_state.statuses[j];
-                    }
-
-                    // 发布ROS2电机状态消息
-                    motor_states_pub_->publish(motor_state_msg);
-
-                    if (this->debug_)
-                    {
-                        RCLCPP_INFO(this->get_logger(), "发布电机状态消息到ROS2:，长度：%zu", len);
-                    }
-                    break;
-                }
-                case MAVLINK_MSG_ID_DOG_IMU_DATA:
-                {
-                    // 解析IMU数据消息
-                    mavlink_dog_imu_data_t dog_imu_data;
-                    mavlink_msg_dog_imu_data_decode(&msg, &dog_imu_data);
-
-                    // 创建并发布ROS2 IMU数据消息
-                    auto imu_data_msg = usb_device_driver::msg::IMUData();
-
-                    // 设置时间戳
-                    auto now = this->get_clock()->now();
-                    imu_data_msg.timestamp.sec = now.seconds();
-                    imu_data_msg.timestamp.nanosec = now.nanoseconds() % 1000000000UL;
-
-                    // 设置四元数 (从MAVLink结构体获取对应字段)
-                    imu_data_msg.orientation.w = dog_imu_data.qw;
-                    imu_data_msg.orientation.x = dog_imu_data.qx;
-                    imu_data_msg.orientation.y = dog_imu_data.qy;
-                    imu_data_msg.orientation.z = dog_imu_data.qz;
-
-                    // 设置角速度
-                    imu_data_msg.angular_velocity.x = dog_imu_data.gx;
-                    imu_data_msg.angular_velocity.y = dog_imu_data.gy;
-                    imu_data_msg.angular_velocity.z = dog_imu_data.gz;
-
-                    // 设置线性加速度
-                    imu_data_msg.linear_acceleration.x = dog_imu_data.ax;
-                    imu_data_msg.linear_acceleration.y = dog_imu_data.ay;
-                    imu_data_msg.linear_acceleration.z = dog_imu_data.az;
-
-                    // 发布ROS2 IMU数据消息
-                    imu_states_pub_->publish(imu_data_msg);
-
-                    if (debug_)
-                    {
-                        RCLCPP_INFO(this->get_logger(), "发布IMU数据消息到ROS2:，长度：%zu", len);
-                    }
-                    break;
-                }
-                default:
-                    RCLCPP_WARN(this->get_logger(), "未知的消息ID:%d", msg.msgid);
-                    break;
-                }
-            }
         }
     }
 

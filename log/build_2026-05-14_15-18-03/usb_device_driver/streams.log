@@ -1,0 +1,233 @@
+[0.008s] Invoking command in '/home/miles/usb_ros2_ws/build/usb_device_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/miles/usb_ros2_ws/build/usb_device_driver -- -j12 -l12
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target usb_device_driver__rosidl_generator_c[0m
+[0.058s] [  2%] Built target usb_device_driver__cpp
+[0.061s] [ 12%] Built target usb_device_driver__rosidl_generator_c
+[0.069s] [ 12%] Built target ament_cmake_python_copy_usb_device_driver
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target usb_device_driver__rosidl_typesupport_introspection_cpp[0m
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target usb_device_driver__rosidl_typesupport_cpp[0m
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target usb_device_driver__rosidl_typesupport_fastrtps_cpp[0m
+[0.074s] [35m[1mConsolidate compiler generated dependencies of target usb_device_driver__rosidl_typesupport_c[0m
+[0.074s] [35m[1mConsolidate compiler generated dependencies of target usb_device_driver__rosidl_typesupport_introspection_c[0m
+[0.074s] [35m[1mConsolidate compiler generated dependencies of target usb_device_driver__rosidl_typesupport_fastrtps_c[0m
+[0.084s] [ 22%] Built target usb_device_driver__rosidl_typesupport_introspection_cpp
+[0.087s] [ 52%] Built target usb_device_driver__rosidl_typesupport_cpp
+[0.087s] [ 52%] Built target usb_device_driver__rosidl_typesupport_fastrtps_cpp
+[0.087s] [ 52%] Built target usb_device_driver__rosidl_typesupport_c
+[0.089s] [ 72%] Built target usb_device_driver__rosidl_typesupport_fastrtps_c
+[0.090s] [ 72%] Built target usb_device_driver__rosidl_typesupport_introspection_c
+[0.098s] [35m[1mConsolidate compiler generated dependencies of target usb_reader_node[0m
+[0.109s] [ 72%] Built target usb_device_driver
+[0.119s] [ 76%] [32mBuilding CXX object CMakeFiles/usb_reader_node.dir/src/main.cpp.o[0m
+[0.119s] [ 76%] [32mBuilding CXX object CMakeFiles/usb_reader_node.dir/src/usb_reader_node.cpp.o[0m
+[0.129s] [ 78%] Built target usb_device_driver__py
+[0.139s] [35m[1mConsolidate compiler generated dependencies of target usb_device_driver__rosidl_generator_py[0m
+[0.155s] [ 86%] Built target usb_device_driver__rosidl_generator_py
+[0.165s] [35m[1mConsolidate compiler generated dependencies of target usb_device_driver__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.165s] [35m[1mConsolidate compiler generated dependencies of target usb_device_driver__rosidl_typesupport_introspection_c__pyext[0m
+[0.165s] [35m[1mConsolidate compiler generated dependencies of target usb_device_driver__rosidl_typesupport_c__pyext[0m
+[0.177s] [ 94%] Built target usb_device_driver__rosidl_typesupport_introspection_c__pyext
+[0.177s] [ 94%] Built target usb_device_driver__rosidl_typesupport_c__pyext
+[0.179s] [ 98%] Built target usb_device_driver__rosidl_typesupport_fastrtps_c__pyext
+[0.271s] running egg_info
+[0.271s] writing usb_device_driver.egg-info/PKG-INFO
+[0.272s] writing dependency_links to usb_device_driver.egg-info/dependency_links.txt
+[0.272s] writing top-level names to usb_device_driver.egg-info/top_level.txt
+[0.273s] reading manifest file 'usb_device_driver.egg-info/SOURCES.txt'
+[0.274s] writing manifest file 'usb_device_driver.egg-info/SOURCES.txt'
+[0.297s] [ 98%] Built target ament_cmake_python_build_usb_device_driver_egg
+[2.075s] In file included from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/../protocol.h:4[m[K,
+[2.075s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/robot_dog.h:29[m[K,
+[2.076s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/mavlink.h:32[m[K,
+[2.076s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/include/usb_device_driver/usb_reader_node.hpp:20[m[K,
+[2.076s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/src/main.cpp:1[m[K:
+[2.076s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/../mavlink_types.h:78:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.076s]    78 |     struct [01;35m[K{[m[K
+[2.076s]       |            [01;35m[K^[m[K
+[2.076s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/../mavlink_types.h:17:40:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KMAVPACKED[m[K’
+[2.076s]    17 | D( __Declaration__ ) [01;36m[K__Declaration__[m[K __attribute__((packed))
+[2.076s]       |                      [01;36m[K^~~~~~~~~~~~~~~[m[K
+[2.076s] 
+[2.083s] In file included from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/../protocol.h:4[m[K,
+[2.083s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/robot_dog.h:29[m[K,
+[2.083s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/mavlink.h:32[m[K,
+[2.083s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/include/usb_device_driver/usb_reader_node.hpp:20[m[K,
+[2.083s]                  from [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/src/usb_reader_node.cpp:1[m[K:
+[2.083s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/../mavlink_types.h:78:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.083s]    78 |     struct [01;35m[K{[m[K
+[2.083s]       |            [01;35m[K^[m[K
+[2.083s] [01m[K/home/miles/usb_ros2_ws/src/usb_device_driver/generated/include/mavlink/v2.0/robot_dog/../mavlink_types.h:17:40:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KMAVPACKED[m[K’
+[2.084s]    17 |   #define MAVPACKED( __Declaration__ ) [01;36m[K__Declaration__[m[K __attribute__((packed))
+[2.084s]       |                                        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[7.366s] [100%] [32m[1mLinking CXX executable usb_reader_node[0m
+[7.667s] [100%] Built target usb_reader_node
+[7.679s] Invoked command in '/home/miles/usb_ros2_ws/build/usb_device_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/miles/usb_ros2_ws/build/usb_device_driver -- -j12 -l12
+[7.688s] Invoking command in '/home/miles/usb_ros2_ws/build/usb_device_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/miles/usb_ros2_ws/build/usb_device_driver
+[7.696s] -- Install configuration: ""
+[7.696s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/ament_index/resource_index/rosidl_interfaces/usb_device_driver
+[7.696s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver
+[7.697s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg
+[7.697s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail
+[7.697s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_cmd__struct.h
+[7.697s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_states__struct.h
+[7.697s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_cmd__type_support.h
+[7.697s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_states__functions.c
+[7.697s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/imu_data__type_support.h
+[7.697s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/imu_data__functions.h
+[7.697s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_cmd__functions.c
+[7.698s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_states__type_support.h
+[7.698s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_cmd__functions.h
+[7.698s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/imu_data__functions.c
+[7.698s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_states__functions.h
+[7.698s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/imu_data__struct.h
+[7.698s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/rosidl_generator_c__visibility_control.h
+[7.698s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/motors_cmd.h
+[7.698s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/motors_states.h
+[7.698s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/imu_data.h
+[7.698s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/environment/library_path.sh
+[7.698s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/environment/library_path.dsv
+[7.698s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/lib/libusb_device_driver__rosidl_generator_c.so
+[7.698s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver
+[7.698s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg
+[7.699s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail
+[7.699s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_states__rosidl_typesupport_fastrtps_c.h
+[7.699s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/imu_data__rosidl_typesupport_fastrtps_c.h
+[7.699s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_cmd__rosidl_typesupport_fastrtps_c.h
+[7.699s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.699s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/lib/libusb_device_driver__rosidl_typesupport_fastrtps_c.so
+[7.699s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver
+[7.699s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg
+[7.699s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail
+[7.699s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/imu_data__builder.hpp
+[7.699s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/imu_data__type_support.hpp
+[7.699s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_states__type_support.hpp
+[7.699s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_cmd__struct.hpp
+[7.699s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_cmd__traits.hpp
+[7.699s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_states__struct.hpp
+[7.699s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/imu_data__traits.hpp
+[7.699s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_states__builder.hpp
+[7.699s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/imu_data__struct.hpp
+[7.699s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_states__traits.hpp
+[7.699s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_cmd__builder.hpp
+[7.699s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_cmd__type_support.hpp
+[7.700s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/motors_states.hpp
+[7.700s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/motors_cmd.hpp
+[7.700s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.700s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/imu_data.hpp
+[7.700s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver
+[7.700s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg
+[7.700s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail
+[7.700s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/dds_fastrtps
+[7.700s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[7.700s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_states__rosidl_typesupport_fastrtps_cpp.hpp
+[7.700s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/imu_data__rosidl_typesupport_fastrtps_cpp.hpp
+[7.700s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.700s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/lib/libusb_device_driver__rosidl_typesupport_fastrtps_cpp.so
+[7.700s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver
+[7.700s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg
+[7.700s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail
+[7.700s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_cmd__rosidl_typesupport_introspection_c.h
+[7.700s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/imu_data__rosidl_typesupport_introspection_c.h
+[7.700s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/imu_data__type_support.c
+[7.700s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_cmd__type_support.c
+[7.700s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_states__rosidl_typesupport_introspection_c.h
+[7.700s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_states__type_support.c
+[7.701s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.701s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/lib/libusb_device_driver__rosidl_typesupport_introspection_c.so
+[7.701s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/lib/libusb_device_driver__rosidl_typesupport_c.so
+[7.701s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver
+[7.701s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg
+[7.701s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail
+[7.701s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_cmd__type_support.cpp
+[7.701s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_states__rosidl_typesupport_introspection_cpp.hpp
+[7.701s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/imu_data__type_support.cpp
+[7.701s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_cmd__rosidl_typesupport_introspection_cpp.hpp
+[7.701s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/imu_data__rosidl_typesupport_introspection_cpp.hpp
+[7.701s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/usb_device_driver/usb_device_driver/msg/detail/motors_states__type_support.cpp
+[7.701s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/lib/libusb_device_driver__rosidl_typesupport_introspection_cpp.so
+[7.701s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/lib/libusb_device_driver__rosidl_typesupport_cpp.so
+[7.701s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/environment/pythonpath.sh
+[7.701s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/environment/pythonpath.dsv
+[7.701s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver-0.0.0-py3.10.egg-info
+[7.701s] -- Installing: /home/miles/usb_ros2_ws/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.701s] -- Installing: /home/miles/usb_ros2_ws/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.701s] -- Installing: /home/miles/usb_ros2_ws/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver-0.0.0-py3.10.egg-info/top_level.txt
+[7.701s] -- Installing: /home/miles/usb_ros2_ws/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver-0.0.0-py3.10.egg-info/PKG-INFO
+[7.701s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver
+[7.701s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/libusb_device_driver__rosidl_generator_py.so
+[7.701s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/usb_device_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.701s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/msg
+[7.702s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/msg/_imu_data.py
+[7.702s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/msg/_motors_cmd_s.c
+[7.702s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/msg/_motors_cmd.py
+[7.702s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/msg/_imu_data_s.c
+[7.702s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/msg/_motors_states_s.c
+[7.702s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/msg/_motors_states.py
+[7.702s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/msg/__init__.py
+[7.702s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/_usb_device_driver_s.ep.rosidl_typesupport_c.c
+[7.702s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/_usb_device_driver_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.702s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/usb_device_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.702s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/usb_device_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.702s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/__init__.py
+[7.702s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/_usb_device_driver_s.ep.rosidl_typesupport_introspection_c.c
+[7.724s] Listing '/home/miles/usb_ros2_ws/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver'...
+[7.724s] Listing '/home/miles/usb_ros2_ws/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/msg'...
+[7.728s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/usb_device_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.728s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/usb_device_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.729s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/local/lib/python3.10/dist-packages/usb_device_driver/usb_device_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.729s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/lib/libusb_device_driver__rosidl_generator_py.so
+[7.729s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/msg/IMUData.idl
+[7.729s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/msg/MotorsCmd.idl
+[7.729s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/msg/MotorsStates.idl
+[7.729s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/msg/IMUData.msg
+[7.730s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/msg/MotorsCmd.msg
+[7.730s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/msg/MotorsStates.msg
+[7.730s] -- Installing: /home/miles/usb_ros2_ws/install/usb_device_driver/lib/usb_device_driver/usb_reader_node
+[7.735s] -- Set runtime path of "/home/miles/usb_ros2_ws/install/usb_device_driver/lib/usb_device_driver/usb_reader_node" to ""
+[7.735s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/lib/usb_device_driver/usb_reader_node
+[7.735s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include/
+[7.736s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/include//usb_device_driver
+[7.736s] -- Installing: /home/miles/usb_ros2_ws/install/usb_device_driver/include//usb_device_driver/usb_reader_node.hpp
+[7.736s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver//launch
+[7.736s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver//launch/usb_reader.launch.py
+[7.736s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver//config
+[7.736s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver//config/usb_reader.yaml
+[7.736s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/ament_index/resource_index/package_run_dependencies/usb_device_driver
+[7.736s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/ament_index/resource_index/parent_prefix_path/usb_device_driver
+[7.736s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/environment/ament_prefix_path.sh
+[7.736s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/environment/ament_prefix_path.dsv
+[7.736s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/environment/path.sh
+[7.737s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/environment/path.dsv
+[7.737s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/local_setup.bash
+[7.737s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/local_setup.sh
+[7.737s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/local_setup.zsh
+[7.737s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/local_setup.dsv
+[7.737s] -- Installing: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/package.dsv
+[7.737s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/ament_index/resource_index/packages/usb_device_driver
+[7.737s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/cmake/export_usb_device_driver__rosidl_generator_cExport.cmake
+[7.737s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/cmake/export_usb_device_driver__rosidl_generator_cExport-noconfig.cmake
+[7.737s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/cmake/export_usb_device_driver__rosidl_typesupport_fastrtps_cExport.cmake
+[7.737s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/cmake/export_usb_device_driver__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.737s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/cmake/export_usb_device_driver__rosidl_generator_cppExport.cmake
+[7.737s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/cmake/export_usb_device_driver__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.737s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/cmake/export_usb_device_driver__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.737s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/cmake/usb_device_driver__rosidl_typesupport_introspection_cExport.cmake
+[7.738s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/cmake/usb_device_driver__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.738s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/cmake/usb_device_driver__rosidl_typesupport_cExport.cmake
+[7.738s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/cmake/usb_device_driver__rosidl_typesupport_cExport-noconfig.cmake
+[7.738s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/cmake/usb_device_driver__rosidl_typesupport_introspection_cppExport.cmake
+[7.738s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/cmake/usb_device_driver__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.738s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/cmake/usb_device_driver__rosidl_typesupport_cppExport.cmake
+[7.738s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/cmake/usb_device_driver__rosidl_typesupport_cppExport-noconfig.cmake
+[7.738s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/cmake/export_usb_device_driver__rosidl_generator_pyExport.cmake
+[7.738s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/cmake/export_usb_device_driver__rosidl_generator_pyExport-noconfig.cmake
+[7.738s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/cmake/rosidl_cmake-extras.cmake
+[7.738s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.738s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.738s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[7.738s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/cmake/ament_cmake_export_targets-extras.cmake
+[7.738s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.738s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.738s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/cmake/usb_device_driverConfig.cmake
+[7.738s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/cmake/usb_device_driverConfig-version.cmake
+[7.739s] -- Up-to-date: /home/miles/usb_ros2_ws/install/usb_device_driver/share/usb_device_driver/package.xml
+[7.740s] Invoked command in '/home/miles/usb_ros2_ws/build/usb_device_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/miles/usb_ros2_ws/build/usb_device_driver

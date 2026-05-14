@@ -56,22 +56,16 @@ private:
   // 互斥锁
   std::mutex serial_mutex_;
   
-  // 发布者
-  rclcpp::Publisher<std_msgs::msg::String>::SharedPtr raw_data_pub_;
-  rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr velocity_pub_;
-  rclcpp::Publisher<std_msgs::msg::String>::SharedPtr parsed_data_pub_;
-  
-  // 新增发布者
+  // 电机状态发布者和imu状态发布者
   rclcpp::Publisher<usb_device_driver::msg::MotorsStates>::SharedPtr motor_states_pub_;
   rclcpp::Publisher<usb_device_driver::msg::IMUData>::SharedPtr imu_states_pub_;
 
-  // 订阅者
+  // 电机命令订阅者
   rclcpp::Subscription<usb_device_driver::msg::MotorsCmd>::SharedPtr motor_cmd_sub_;
 
   // 串口处理函数
-  void sendMotorCmdToSerial(const usb_device_driver::msg::MotorsCmd::SharedPtr msg);
-  void handleReceivedMavlinkData(const uint8_t* buffer, size_t len);
-  void processMavlinkMessage(const mavlink_message_t* msg);
+  void sendMotorCmdToSerial(const usb_device_driver::msg::MotorsCmd::SharedPtr msg); // 将电机命令消息发送到串口(发送的底层接口)
+  void processMavlinkMessage(const mavlink_message_t* msg); // 处理解析后的MAVLink消息，根据消息类型发布到对应的ROS2主题
 
   // 参数
   std::string port_;
@@ -81,19 +75,19 @@ private:
   int read_buffer_size_;
   
   // 定时器
-  rclcpp::TimerBase::SharedPtr connection_timer_;
-  void checkConnection();
+  rclcpp::TimerBase::SharedPtr connection_timer_; // ROS2定时器共享指针，用于周期地检查串口连接状态
+  void checkConnection(); // 检查串口连接状态，根据需要重新连接
   
   // 统计
-  size_t bytes_received_{0};
-  size_t messages_received_{0};
+  size_t bytes_received_{0}; // 已接收的字节数计数器，统计消息成功率
+  size_t messages_received_{0}; // 已接收的消息数计数器
   
   // 重新连接尝试
-  int reconnect_attempts_{0};
-  static constexpr int MAX_RECONNECT_ATTEMPTS = 10;
+  int reconnect_attempts_{0}; // 重新连接尝试次数计数器
+  static constexpr int MAX_RECONNECT_ATTEMPTS = 10; // 最大重新连接尝试次数
   
   // MAVLink解析状态
-  mavlink_status_t last_status{};
+  mavlink_status_t last_status{}; // 最后一次解析的MAVLink消息状态
 };
 
 }  // namespace usb_device_driver
