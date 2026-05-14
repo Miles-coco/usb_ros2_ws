@@ -1,0 +1,6 @@
+setup.py
+usb_device_driver/__init__.py
+usb_device_driver.egg-info/PKG-INFO
+usb_device_driver.egg-info/SOURCES.txt
+usb_device_driver.egg-info/dependency_links.txt
+usb_device_driver.egg-info/top_level.txt

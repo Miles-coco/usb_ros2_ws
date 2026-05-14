@@ -16,14 +16,6 @@ namespace usb_device_driver
         // 初始化参数
         initParameters();
 
-        // 创建发布者
-        raw_data_pub_ = this->create_publisher<std_msgs::msg::String>(
-            "/usb/raw_data", 10);
-        velocity_pub_ = this->create_publisher<geometry_msgs::msg::Twist>(
-            "/usb/velocity", 10);
-        parsed_data_pub_ = this->create_publisher<std_msgs::msg::String>(
-            "/usb/parsed_data", 10);
-
         // 新增发布者
         motor_states_pub_ = this->create_publisher<usb_device_driver::msg::MotorsStates>(
             "/usb/motors_states", 10);
@@ -342,12 +334,7 @@ namespace usb_device_driver
                     // 保留未完成的消息部分在缓冲区中
                     // 由于mavlink_parse_char会处理字节顺序和消息完整性，
                     // 我们保留整个缓冲区，让解析器处理消息边界
-
-                    // 发布原始数据到ROS2主题（保留原有功能）
-                    auto raw_msg = std_msgs::msg::String();
-                    raw_msg.data = temp_buffer;
-                    raw_data_pub_->publish(raw_msg);
-
+                    
                     if (this->debug_)
                     {
                         RCLCPP_INFO(this->get_logger(), "接收: %zu 字节", bytes_read);
