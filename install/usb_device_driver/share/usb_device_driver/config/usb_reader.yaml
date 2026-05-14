@@ -1,8 +1,0 @@
-usb_reader:
-  ros__parameters:
-    port: "/dev/ttyACM0"
-    baudrate: 115200
-    timeout: 1.0
-    debug: false
-    read_buffer_size: 1024
-    auto_detect: true
